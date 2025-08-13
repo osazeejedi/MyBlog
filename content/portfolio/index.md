@@ -34,9 +34,13 @@ cover:
         <div class="skills-section">
             <h3>Core Skills</h3>
             <div class="skills-grid">
-                {{ range .Site.Data.portfolio.personal.skills }}
-                <span class="skill-tag">{{ . }}</span>
-                {{ end }}
+                <span class="skill-tag">Coding</span>
+                <span class="skill-tag">Writing</span>
+                <span class="skill-tag">Program Management</span>
+                <span class="skill-tag">Public Speaking</span>
+                <span class="skill-tag">Problem Solving</span>
+                <span class="skill-tag">Team Management</span>
+                <span class="skill-tag">Mentoring</span>
             </div>
         </div>
         
@@ -51,68 +55,111 @@ cover:
 ## Professional Experience
 
 <div class="experience-timeline">
-    {{ range .Site.Data.portfolio.experience }}
     <div class="experience-item">
         <div class="experience-header">
-            <h3 class="experience-title">{{ .title }}</h3>
+            <h3 class="experience-title">Blockchain Developer</h3>
             <div class="experience-meta">
-                <span class="company">{{ .company }}</span>
-                <span class="location">{{ .location }}</span>
-                <span class="date-range">{{ .range }}</span>
+                <span class="company">Axyzglobal</span>
+                <span class="location">Remote</span>
+                <span class="date-range">August 2022 - Present</span>
             </div>
         </div>
         <div class="experience-content">
             <ul class="responsibilities">
-                {{ range .responsibilities }}
-                <li>{{ . }}</li>
-                {{ end }}
+                <li>Managed and developed a supply chain protocol on the ethereum blockchain</li>
+                <li>Worked autonomously on building a supply chain protocol on hyperledger</li>
+                <li>Liaised with remote team members across the country</li>
             </ul>
         </div>
     </div>
-    {{ end }}
+    
+    <div class="experience-item">
+        <div class="experience-header">
+            <h3 class="experience-title">Data Alchemist - Quest Designer</h3>
+            <div class="experience-meta">
+                <span class="company"><a href="https://www.covalenthq.com/" target="_blank" rel="noopener noreferrer">CovalentHQ</a></span>
+                <span class="location">Remote (Contract)</span>
+                <span class="date-range">June 2022 - December 2022</span>
+            </div>
+        </div>
+        <div class="experience-content">
+            <ul class="responsibilities">
+                <li>Designed and managed an quest for the covalent Data alchemist program</li>
+                <li>Provided technical support and organised workshops for Data alchemist</li>
+                <li>Organised a Hackathon-in-a-box for the covalent community in Lagos</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="experience-item">
+        <div class="experience-header">
+            <h3 class="experience-title">Blockchain Developer (Smart Contracts)</h3>
+            <div class="experience-meta">
+                <span class="company"><a href="https://www.web3bridge.com/" target="_blank" rel="noopener noreferrer">Web3Bridge</a></span>
+                <span class="location">Remote</span>
+                <span class="date-range">December 2021 - May 2022</span>
+            </div>
+        </div>
+        <div class="experience-content">
+            <ul class="responsibilities">
+                <li>Designed and developed smart contract with solidity, javascript and hardhat</li>
+                <li>Designed and developed upgradeable proxy contracts using EIP2535</li>
+                <li>Designed and developed smart contracts for deployment on ZkEvm</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="experience-item">
+        <div class="experience-header">
+            <h3 class="experience-title">Senior Program Manager/ Technical Program Manager</h3>
+            <div class="experience-meta">
+                <span class="company"><a href="https://www.covenworks.com/" target="_blank" rel="noopener noreferrer">Coven Works</a></span>
+                <span class="location">Remote</span>
+                <span class="date-range">May 2020 - February 2022</span>
+            </div>
+        </div>
+        <div class="experience-content">
+            <ul class="responsibilities">
+                <li>Established and implemented short- and long-range goals, objectives, and operating procedures</li>
+                <li>Managed a portfolio of AI projects, ensuring coordination of shared resources which lead to a revenue of $2million</li>
+                <li>Developed a comprehensive monitoring of issues and dependencies to remove any roadblocks resulting in 99% of milestones achieved on time</li>
+                <li>Fostered a culture of robust documentation both internally and externally, reducing the number of customer support request by 20%</li>
+                <li>Led onboarding process acting as customer champion to ensure quick adaptation resulting in user engagement rate of 72%</li>
+                <li>Created and implemented PMO best practices, ensuring alignment with SDLC and business process using Agile Methodology</li>
+            </ul>
+        </div>
+    </div>
 </div>
 
 ## Featured Projects
 
 <div class="projects-grid">
-    {{ range .Site.Data.portfolio.featured_projects }}
-    {{ if .showInProjects }}
     <div class="project-card">
         <div class="project-image">
-            {{ if .image }}
-            <img src="/images/portfolio/projects/{{ .image }}" alt="{{ .title }}" loading="lazy">
-            {{ else }}
             <div class="project-placeholder">
                 <span>🚀</span>
             </div>
-            {{ end }}
         </div>
         <div class="project-content">
-            <h3 class="project-title">{{ .title }}</h3>
-            <p class="project-description">{{ .description }}</p>
+            <h3 class="project-title">DexSense</h3>
+            <p class="project-description">Designed and implemented React-based Web Application which utilizes the Covalent API to display DEX metrics across multiple chains supported by covalent.</p>
             
             <div class="project-tech">
-                {{ range .tech }}
-                <span class="tech-tag">{{ . }}</span>
-                {{ end }}
+                <span class="tech-tag">ReactJS</span>
+                <span class="tech-tag">ethersJS</span>
+                <span class="tech-tag">Covalent API</span>
             </div>
             
             <div class="project-links">
-                {{ if .github }}
-                <a href="{{ .github }}" target="_blank" rel="noopener noreferrer" class="project-link github-link">
+                <a href="https://github.com/osazeejedi/DEX-Dashboard" target="_blank" rel="noopener noreferrer" class="project-link github-link">
                     <span>GitHub</span>
                 </a>
-                {{ end }}
-                {{ if .external }}
-                <a href="{{ .external }}" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                <a href="https://dex-dashboard-pi.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
                     <span>Live Demo</span>
                 </a>
-                {{ end }}
             </div>
         </div>
     </div>
-    {{ end }}
-    {{ end }}
 </div>
 
 ## About My Work
