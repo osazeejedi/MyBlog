@@ -1,0 +1,93 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = ""
+theme = 'PaperMod'
+
+[params]
+  # Theme-specific parameters
+  env = "production"
+  title = "Osazee's Blog"
+  description = "Personal thoughts and tech insights from a passionate developer"
+  keywords = ["blog", "personal", "tech", "programming", "web development", "learning"]
+  author = "Osazee Oghagbon"
+  
+  # Dark mode settings
+  defaultTheme = "dark"
+  disableThemeToggle = false
+  
+  # Show reading time and word count
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = true
+  
+  # Comments
+  comments = true
+  
+  # Social icons
+  ShowRssButtonInSectionTermList = true
+  
+  # Home page settings
+  homeInfoParams.Title = "Welcome to My Blog"
+  homeInfoParams.Content = "A place for my personal thoughts and tech insights"
+
+[params.profileMode]
+  enabled = false
+
+# Menu configuration
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 35
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 40
+
+# Markup settings for code highlighting
+[markup]
+  [markup.highlight]
+    style = "github-dark"
+    lineNos = true
+    codeFences = true
+    guessSyntax = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Comments configuration (Disqus)
+disqusShortname = "your-disqus-shortname"  # Replace with your actual Disqus shortname
+
+# Privacy settings
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    disable = true
