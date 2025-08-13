@@ -1,7 +1,17 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://my-blog-osazeejedi.vercel.app/'
 languageCode = 'en-us'
-title = ""
+title = "Osazee's Blog"
 theme = 'PaperMod'
+
+# Build settings
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableRobotsTXT = true
+enableGitInfo = true
+
+# Minification settings
+minify = true
 
 [params]
   # Theme-specific parameters

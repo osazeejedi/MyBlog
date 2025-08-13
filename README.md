@@ -1,240 +1,209 @@
-# Personal Blog
+# Osazee's Blog
 
-A clean, modern personal blog built with Hugo and the PaperMod theme. Designed for sharing thoughts on technology, programming, and personal growth.
+A modern, responsive personal blog built with Hugo and the PaperMod theme, featuring a dark-focused design with custom styling and mobile optimization.
 
-## Features
+## 🚀 Live Site
 
-- 🌙 **Dark theme by default** with light/dark mode toggle
-- 📱 **Fully responsive** design for all devices
-- ⚡ **Fast loading** with optimized static site generation
-- 💬 **Comments system** ready (Disqus integration)
-- 🎨 **Custom styling** with enhanced typography and visual elements
-- 📊 **SEO optimized** with proper meta tags and structured data
-- 🔍 **Search functionality** built-in
-- 📝 **Markdown support** with syntax highlighting
-- 🏷️ **Tags and categories** for content organization
+Visit the live blog at: [https://my-blog-osazeejedi.vercel.app/](https://my-blog-osazeejedi.vercel.app/)
 
-## Site Structure
+## 🛠️ Built With
+
+- **[Hugo](https://gohugo.io/)** - Fast static site generator
+- **[PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod)** - Clean, responsive Hugo theme
+- **[Vercel](https://vercel.com/)** - Deployment and hosting platform
+- **Custom CSS** - Enhanced styling with Jost font family and mobile optimizations
+
+## ✨ Features
+
+### Design & UX
+- 🌙 **Dark theme focus** with light mode toggle
+- 📱 **Fully responsive** design with mobile-first approach
+- 🎨 **Custom hero section** with profile image and modern card design
+- 🔤 **Jost font family** for improved typography
+- ⚡ **Smooth animations** and hover effects
+- 🎯 **Accessible design** with proper focus states
+
+### Content & Navigation
+- 📝 **Blog posts** with syntax highlighting and reading time
+- 🏷️ **Tag system** for content organization
+- 🔍 **Search functionality** (built into PaperMod)
+- 📊 **Social sharing** buttons
+- 🧭 **Breadcrumb navigation**
+
+### Performance & SEO
+- ⚡ **Fast loading** with Hugo's static generation
+- 🔍 **SEO optimized** with proper meta tags and Open Graph
+- 📱 **Mobile optimized** with responsive images
+- 🌐 **Global CDN** delivery via Vercel
+- 🤖 **Robots.txt** and sitemap generation
+
+## 🏗️ Project Structure
 
 ```
-├── content/
-│   ├── _index.md          # Home page
-│   ├── about/             # About page
-│   ├── posts/             # Blog posts
-│   ├── projects/          # Projects showcase
-│   └── contact/           # Contact information
-├── static/
-│   ├── css/
-│   │   └── custom.css     # Custom styling
-│   └── images/            # Images and media
-├── layouts/
-│   └── partials/
-│       └── extend_head.html # Custom head elements
-└── hugo.toml              # Site configuration
+MyBlog/
+├── content/                 # Blog content
+│   ├── posts/              # Blog posts
+│   ├── about/              # About page
+│   └── contact/            # Contact page
+├── static/                 # Static assets
+│   ├── css/               # Custom CSS
+│   └── images/            # Images and favicon
+├── layouts/               # Custom layouts
+│   └── partials/          # Partial templates
+├── themes/PaperMod/       # Hugo theme (submodule)
+├── hugo.toml              # Hugo configuration
+├── vercel.json            # Vercel deployment config
+└── README.md              # This file
 ```
 
-## Getting Started
+## 🚀 Deployment
+
+This blog is automatically deployed to Vercel with the following configuration:
+
+### Vercel Settings
+- **Framework**: Hugo
+- **Build Command**: `hugo --minify`
+- **Output Directory**: `public`
+- **Install Command**: `git submodule update --init --recursive`
+
+### Environment Variables
+- `HUGO_VERSION`: 0.147.8
+
+### Automatic Deployment
+- ✅ **Auto-deploy** on push to main branch
+- ✅ **Preview deployments** for pull requests
+- ✅ **Custom domain** support ready
+- ✅ **HTTPS** enabled by default
+
+## 🛠️ Local Development
 
 ### Prerequisites
-
-- [Hugo](https://gohugo.io/installation/) (Extended version)
+- [Hugo Extended](https://gohugo.io/installation/) (v0.147.8 or later)
 - [Git](https://git-scm.com/)
 
-### Local Development
-
+### Setup
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/osazeejedi/MyBlog.git
    cd MyBlog
    ```
 
-2. **Initialize submodules** (for the theme)
+2. **Initialize submodules**
    ```bash
    git submodule update --init --recursive
    ```
 
-3. **Start the development server**
+3. **Start development server**
    ```bash
-   hugo server --buildDrafts
+   hugo server -D
    ```
 
-4. **Open your browser** and visit `http://localhost:1313`
+4. **Open in browser**
+   ```
+   http://localhost:1313
+   ```
 
-### Creating Content
-
-#### New Blog Post
+### Development Commands
 ```bash
-hugo new content posts/my-new-post.md
+# Start development server with drafts
+hugo server -D
+
+# Build for production
+hugo --minify
+
+# Update theme
+git submodule update --remote themes/PaperMod
 ```
 
-#### New Project
-```bash
-hugo new content projects/my-project.md
-```
+## 📝 Content Management
 
-## Customization
+### Adding New Posts
+1. Create a new post:
+   ```bash
+   hugo new posts/my-new-post.md
+   ```
 
-### Personal Information
+2. Edit the post in `content/posts/my-new-post.md`
 
-Update the following files with your personal information:
+3. Update the front matter:
+   ```yaml
+   ---
+   title: "My New Post"
+   date: 2025-01-01T00:00:00Z
+   draft: false
+   tags: ["tag1", "tag2"]
+   categories: ["category"]
+   description: "Post description"
+   ---
+   ```
 
-1. **hugo.toml** - Site configuration
-   - Change `title`, `author`, `description`
-   - Update `baseURL` for production
-   - Replace `disqusShortname` with your Disqus shortname
+### Customizing Design
+- **CSS**: Edit `static/css/custom.css`
+- **Colors**: Update CSS variables in the `:root` section
+- **Fonts**: Modify font imports in `layouts/partials/extend_head.html`
+- **Layout**: Customize layouts in `layouts/` directory
 
-2. **content/about/index.md** - About page
-   - Replace placeholder content with your story
-   - Update technology lists and experience
-   - Add your actual social media links
+## 🎨 Customizations
 
-3. **content/_index.md** - Home page
-   - Update the welcome message
-   - Modify the "Currently Working On" section
-   - Replace placeholder links
+### Typography
+- **Primary Font**: Jost (Google Fonts)
+- **Fallback**: Helvetica Neue, Helvetica, Arial, sans-serif
+- **Code Font**: SF Mono, Monaco, Inconsolata, Roboto Mono
 
-4. **content/contact/index.md** - Contact page
-   - Update contact information
-   - Replace social media links
-   - Update location information
+### Color Scheme
+- **Accent**: Indigo (#6366f1)
+- **Text**: Gray (#6b7280)
+- **Headings**: Light gray in dark mode (#d1d5db)
+- **Background**: Theme-based with smooth transitions
 
-### Images
+### Mobile Optimizations
+- **Responsive hero section** with stacked layout
+- **Touch-friendly navigation** with proper hamburger menu
+- **Optimized images** and typography scaling
+- **Improved spacing** and padding for mobile
 
-1. **Profile Photo**
-   - Add your photo as `static/images/profile-photo.jpg`
-   - Update the image reference in the About page
+## 📊 Performance
 
-2. **Favicon**
-   - Replace `static/favicon.ico` with your favicon
-   - Add other icon sizes in the static directory
+### Lighthouse Scores (Target)
+- **Performance**: 95+
+- **Accessibility**: 95+
+- **Best Practices**: 95+
+- **SEO**: 95+
 
-### Comments
+### Optimizations
+- ✅ **Minified CSS/JS**
+- ✅ **Optimized images**
+- ✅ **Efficient caching**
+- ✅ **Fast font loading**
+- ✅ **Minimal JavaScript**
 
-1. **Set up Disqus**
-   - Create a Disqus account
-   - Get your shortname
-   - Update `disqusShortname` in `hugo.toml`
+## 🤝 Contributing
 
-2. **Alternative: Giscus (GitHub-based)**
-   - Follow [Giscus setup guide](https://giscus.app/)
-   - Update the comments configuration
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature-name`
+3. Make your changes
+4. Commit: `git commit -am 'Add feature'`
+5. Push: `git push origin feature-name`
+6. Submit a pull request
 
-### Styling
+## 📄 License
 
-The site uses custom CSS in `static/css/custom.css`. You can:
+This project is open source and available under the [MIT License](LICENSE).
 
-- Modify colors and typography
-- Adjust spacing and layout
-- Add new component styles
-- Customize the dark/light theme colors
+## 👤 Author
 
-### Menu Navigation
+**Osazee Oghagbon**
+- GitHub: [@osazeejedi](https://github.com/osazeejedi)
+- LinkedIn: [osazee-oghagbon](https://www.linkedin.com/in/osazee-oghagbon/)
+- Email: helloosaze@gmail.com
 
-Update the menu in `hugo.toml`:
+## 🙏 Acknowledgments
 
-```toml
-[[menu.main]]
-  identifier = "new-page"
-  name = "New Page"
-  url = "/new-page/"
-  weight = 50
-```
-
-## Deployment
-
-### GitHub Pages
-
-1. **Create a GitHub repository**
-2. **Push your code**
-3. **Set up GitHub Actions** for automatic deployment
-4. **Configure custom domain** (optional)
-
-### Netlify
-
-1. **Connect your GitHub repository**
-2. **Set build command**: `hugo --minify`
-3. **Set publish directory**: `public`
-4. **Deploy automatically** on git push
-
-### Vercel
-
-1. **Import your GitHub repository**
-2. **Framework preset**: Hugo
-3. **Deploy automatically** on git push
-
-## Content Guidelines
-
-### Blog Posts
-
-- Use descriptive titles
-- Add relevant tags and categories
-- Include a brief description
-- Use proper markdown formatting
-- Add code syntax highlighting when needed
-
-### Projects
-
-- Include project description and tech stack
-- Add links to live demos and source code
-- Explain what you learned from each project
-- Use consistent formatting
-
-## Performance
-
-The site is optimized for performance:
-
-- Static site generation with Hugo
-- Minified CSS and JavaScript
-- Optimized images (add your own optimization)
-- Fast loading fonts
-- Minimal external dependencies
-
-## SEO
-
-Built-in SEO features:
-
-- Proper meta tags
-- Open Graph and Twitter Card support
-- Structured data
-- XML sitemap
-- RSS feed
-- Fast loading times
-
-## Browser Support
-
-- Modern browsers (Chrome, Firefox, Safari, Edge)
-- Mobile browsers
-- Progressive enhancement for older browsers
-
-## Contributing
-
-If you find issues or have suggestions:
-
-1. Open an issue
-2. Submit a pull request
-3. Share feedback
-
-## License
-
-This project is open source. Feel free to use it as a template for your own blog.
-
-## Acknowledgments
-
-- [Hugo](https://gohugo.io/) - Static site generator
-- [PaperMod](https://github.com/adityatelange/hugo-PaperMod) - Hugo theme
-- [Dennis Irorere](https://denniseirorere.com/) - Design inspiration
+- [Hugo](https://gohugo.io/) for the amazing static site generator
+- [PaperMod](https://github.com/adityatelange/hugo-PaperMod) for the excellent theme
+- [Vercel](https://vercel.com/) for seamless deployment and hosting
+- [Google Fonts](https://fonts.google.com/) for the Jost font family
 
 ---
 
-## Quick Start Checklist
-
-- [ ] Update personal information in all content files
-- [ ] Replace placeholder links with your actual social media
-- [ ] Add your profile photo
-- [ ] Set up Disqus comments
-- [ ] Customize colors and styling if desired
-- [ ] Write your first blog post
-- [ ] Deploy to your preferred hosting platform
-- [ ] Set up custom domain (optional)
-
-**Happy blogging! 🚀**
+*Built with ❤️ using Hugo and deployed on Vercel*
