@@ -25,13 +25,13 @@ cover:
     hidden: true
 ---
 
+{{< rawhtml >}}
 <div class="portfolio-hero">
     <div class="portfolio-intro">
         <h1 class="portfolio-title">Osazee Jedidiah O</h1>
         <h2 class="portfolio-subtitle">Blockchain Developer, Program Manager and Data Scientist</h2>
         <p class="portfolio-description">I'm a Blockchain developer, Program Manager and Data scientist. Primarily interested in Blockchain Development and Leading teams to deploying quality products on time and in budget. I enjoy learning new skills and implementing them in real life!</p>
         
-        {{< rawhtml >}}
         <div class="skills-section">
             <h3>Technologies I Work With</h3>
             
@@ -78,17 +78,15 @@ cover:
                 </div>
             </div>
         </div>
-        {{< /rawhtml >}}
         
-        {{< rawhtml >}}
         <div class="contact-info">
             <a href="mailto:oghagbonosazee20@gmail.com" class="contact-link">
                 📧 Get In Touch
             </a>
         </div>
-        {{< /rawhtml >}}
     </div>
 </div>
+{{< /rawhtml >}}
 
 ## Professional Experience
 
