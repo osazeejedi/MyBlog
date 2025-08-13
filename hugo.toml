@@ -66,6 +66,12 @@ minify = true
   weight = 30
 
 [[menu.main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  url = "/portfolio/"
+  weight = 32
+
+[[menu.main]]
   identifier = "contact"
   name = "Contact"
   url = "/contact/"

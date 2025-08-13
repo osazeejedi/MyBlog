@@ -1,0 +1,95 @@
+{
+  "personal": {
+    "name": "Osazee Jedidiah O",
+    "title": "Blockchain Developer, Program Manager and Data Scientist",
+    "bio": "I am a data-centric, self-motivated, dedicated, goal-oriented individual with decent moral Values and Ethicates along with a high-energy level, honed communication skills, strong organizational skills, and meticulous attention to detail. I am involved in innovating and building Dapps that solve key problems in society and driving massive adoption of blockchain technology. I am currently interested in building to scaling ethereum(L2 solutions) and Deploy Products that integrates A.I and Blockchain technology.",
+    "subtitle": "I love exploring new things!",
+    "description": "I'm a Blockchain developer, Program Manager and Data scientist. Primarily interested in Blockchain Development and Leading teams to deploying quality products on time and in budget. I enjoy learning new skills and implementing them in real life!",
+    "email": "oghagbonosazee20@gmail.com",
+    "avatar": "osazeeJedi.jpeg",
+    "skills": [
+      "Coding",
+      "Writing",
+      "Program Management",
+      "Public Speaking",
+      "Problem Solving",
+      "Team Management",
+      "Mentoring"
+    ]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "title": "Blockchain Developer",
+      "company": "Axyzglobal",
+      "location": "Remote",
+      "range": "August 2022 - Present",
+      "url": "#",
+      "date": "2021-08-11",
+      "responsibilities": [
+        "Managed and developed a supply chain protocol on the ethereum blockchain",
+        "Worked autonomously on building a supply chain protocol on hyperledger",
+        "Liaised with remote team members across the country"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Data Alchemist - Quest Designer",
+      "company": "CovalentHQ",
+      "location": "Remote (Contract)",
+      "range": "June 2022 - December 2022",
+      "url": "https://www.covalenthq.com/",
+      "date": "2022-06-19",
+      "responsibilities": [
+        "Designed and managed an quest for the covalent Data alchemist program",
+        "Provided technical support and organised workshops for Data alchemist",
+        "Organised a Hackathon-in-a-box for the covalent community in Lagos"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Blockchain Developer (Smart Contracts)",
+      "company": "Web3Bridge",
+      "location": "Remote",
+      "range": "December 2021 - May 2022",
+      "url": "https://www.web3bridge.com/",
+      "date": "2021-12-01",
+      "responsibilities": [
+        "Designed and developed smart contract with solidity, javascript and hardhat",
+        "Designed and developed upgradeable proxy contracts using EIP2535",
+        "Designed and developed smart contracts for deployment on ZkEvm"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Senior Program Manager/ Technical Program Manager",
+      "company": "Coven Works",
+      "location": "Remote",
+      "range": "May 2020 - February 2022",
+      "url": "https://www.covenworks.com/",
+      "date": "2020-09-21",
+      "responsibilities": [
+        "Established and implemented short- and long-range goals, objectives, and operating procedures",
+        "Managed a portfolio of AI projects, ensuring coordination of shared resources which lead to a revenue of $2million",
+        "Developed a comprehensive monitoring of issues and dependencies to remove any roadblocks resulting in 99% of milestones achieved on time",
+        "Fostered a culture of robust documentation both internally and externally, reducing the number of customer support request by 20%",
+        "Led onboarding process acting as customer champion to ensure quick adaptation resulting in user engagement rate of 72%",
+        "Created and implemented PMO best practices, ensuring alignment with SDLC and business process using Agile Methodology"
+      ]
+    }
+  ],
+  "featured_projects": [
+    {
+      "id": 1,
+      "title": "DexSense",
+      "description": "Designed and implemented React-based Web Application which utilizes the Covalent API to display DEX metrics across multiple chains supported by covalent.",
+      "tech": ["ReactJS", "ethersJS", "Covalent API"],
+      "github": "https://github.com/osazeejedi/DEX-Dashboard",
+      "external": "https://dex-dashboard-pi.vercel.app/",
+      "image": "demo1.png",
+      "date": "1",
+      "showInProjects": true
+    }
+    
+  ]
+}
