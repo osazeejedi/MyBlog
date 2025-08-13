@@ -309,7 +309,7 @@ cover:
 
 ## About My Work
 
-I am a data-centric, self-motivated, dedicated, goal-oriented individual with decent moral Values and Ethicates along with a high-energy level, honed communication skills, strong organizational skills, and meticulous attention to detail. I am involved in innovating and building Dapps that solve key problems in society and driving massive adoption of blockchain technology. I am currently interested in building to scaling ethereum(L2 solutions) and Deploy Products that integrates A.I and Blockchain technology.
+Data-driven software engineer with expertise in building scalable applications, from decentralized systems to cloud-native solutions. Skilled in Ethereum L2, AI integration, and delivering innovative, high-impact products.
 
 ---
 
