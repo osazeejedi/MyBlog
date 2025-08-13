@@ -1,5 +1,7 @@
-<!-- Custom CSS -->
-<link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
+<!-- Load fonts first for better performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <!-- Additional meta tags for better SEO -->
 <meta name="author" content="{{ .Site.Params.author }}">
@@ -23,10 +25,17 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/images/osazee.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/osazee.png">
 
-<!-- Preload important fonts -->
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap"></noscript>
-
 <!-- Theme color for mobile browsers -->
 <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+
+<!-- Custom CSS - Load after theme CSS for proper override -->
+<link rel="stylesheet" href="{{ "css/custom.css" | absURL }}" media="all">
+
+<!-- Additional CSS priority fix -->
+<style>
+/* Force custom font family application */
+body, .post-content, .hero-section, .home-section {
+    font-family: 'Jost', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+</style>
