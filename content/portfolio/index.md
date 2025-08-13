@@ -219,8 +219,8 @@ cover:
                 <a href="#" class="project-link github-link private">
                     <span>GitHub (Private)</span>
                 </a>
-                <a href="https://mansu.io" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>App Store</span>
+                <a href="https://ruddy-hugger-0e6.notion.site/Mansu-Wallet-App-Documentation-1d5781fe7da980108ab1c5f64e1bc0a1" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>App Documentation</span>
                 </a>
             </div>
         </div>
