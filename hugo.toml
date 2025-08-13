@@ -8,7 +8,7 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 enableRobotsTXT = true
-enableGitInfo = true
+enableGitInfo = false
 
 # Minification settings
 minify = true
