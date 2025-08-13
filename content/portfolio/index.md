@@ -54,6 +54,7 @@ cover:
 
 ## Professional Experience
 
+{{< rawhtml >}}
 <div class="experience-timeline">
     <div class="experience-item">
         <div class="experience-header">
@@ -130,9 +131,11 @@ cover:
         </div>
     </div>
 </div>
+{{< /rawhtml >}}
 
 ## Featured Projects
 
+{{< rawhtml >}}
 <div class="projects-grid">
     <div class="project-card">
         <div class="project-image">
@@ -161,6 +164,7 @@ cover:
         </div>
     </div>
 </div>
+{{< /rawhtml >}}
 
 ## About My Work
 
