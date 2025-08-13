@@ -27,9 +27,9 @@ cover:
 
 <div class="portfolio-hero">
     <div class="portfolio-intro">
-        <h1 class="portfolio-title">{{ .Site.Data.portfolio.personal.name }}</h1>
-        <h2 class="portfolio-subtitle">{{ .Site.Data.portfolio.personal.title }}</h2>
-        <p class="portfolio-description">{{ .Site.Data.portfolio.personal.description }}</p>
+        <h1 class="portfolio-title">Osazee Jedidiah O</h1>
+        <h2 class="portfolio-subtitle">Blockchain Developer, Program Manager and Data Scientist</h2>
+        <p class="portfolio-description">I'm a Blockchain developer, Program Manager and Data scientist. Primarily interested in Blockchain Development and Leading teams to deploying quality products on time and in budget. I enjoy learning new skills and implementing them in real life!</p>
         
         <div class="skills-section">
             <h3>Core Skills</h3>
@@ -41,7 +41,7 @@ cover:
         </div>
         
         <div class="contact-info">
-            <a href="mailto:{{ .Site.Data.portfolio.personal.email }}" class="contact-link">
+            <a href="mailto:oghagbonosazee20@gmail.com" class="contact-link">
                 📧 Get In Touch
             </a>
         </div>
@@ -117,7 +117,7 @@ cover:
 
 ## About My Work
 
-{{ .Site.Data.portfolio.personal.bio }}
+I am a data-centric, self-motivated, dedicated, goal-oriented individual with decent moral Values and Ethicates along with a high-energy level, honed communication skills, strong organizational skills, and meticulous attention to detail. I am involved in innovating and building Dapps that solve key problems in society and driving massive adoption of blockchain technology. I am currently interested in building to scaling ethereum(L2 solutions) and Deploy Products that integrates A.I and Blockchain technology.
 
 ---
 
@@ -138,7 +138,7 @@ I'm always interested in discussing blockchain technology, program management, a
 **Find me here:**
 - 💼 [LinkedIn](https://www.linkedin.com/in/osazee-oghagbon/)
 - 💻 [GitHub](https://github.com/osazeejedi)
-- 📧 [Email](mailto:{{ .Site.Data.portfolio.personal.email }})
+- 📧 [Email](mailto:oghagbonosazee20@gmail.com)
 
 ---
 
