@@ -78,5 +78,3 @@ If you're in the area, let's grab a coffee and talk code, life, or anything in b
 - **Email**: [helloosaze@gmail.com](mailto:helloosaze@gmail.com)
 
 ---
-
-*This blog is built with Hugo and the PaperMod theme. The source code is available on GitHub for anyone curious about the setup.*
