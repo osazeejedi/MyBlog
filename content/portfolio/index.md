@@ -177,13 +177,118 @@ cover:
 <div class="projects-grid">
     <div class="project-card">
         <div class="project-image">
+            <img src="/images/portfolio/projects/project1/Axyz360.png" alt="Auto360 Supplychain Protocol" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">Auto360 Supplychain Protocol</h3>
+            <p class="project-description">Built a supply chain protocol on the Ethereum blockchain for tracking goods, providence and performing transactions using the Auto360 Token.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">ReactJS</span>
+                <span class="tech-tag">Redux</span>
+                <span class="tech-tag">Styled Components</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Solidity</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="http://axyz360auto.com" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Live Demo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project2/mansuMobile.jpg" alt="Mansu Mobile Wallet" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">Mansu Mobile Wallet</h3>
+            <p class="project-description">Mobile wallet app for Nigeria & Ghana users to buy, sell, swap, and send cryptocurrency using local fiat currencies. Supports Bitcoin, Ethereum, Tether, and TRON.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Blockchain APIs</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="https://mansu.io" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>App Store</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project3/mansuwebsite.png" alt="Mansu Official Website" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">Mansu Official Website</h3>
+            <p class="project-description">Official website for Mansu cryptocurrency platform, providing information and access to their financial services and mobile wallet application.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">Node.js</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="https://www.mansu.io" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Live Demo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project4/tcninsightlive.png" alt="TCN Insight Live" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">TCN Insight Live</h3>
+            <p class="project-description">Real-time Q&A and response application for live customer support and engagement, enabling seamless communication and instant feedback.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">WebSocket</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="https://www.tcnqa.com" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Live Demo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
             <div class="project-placeholder">
-                <span>🚀</span>
+                <span>📊</span>
             </div>
         </div>
         <div class="project-content">
             <h3 class="project-title">DexSense</h3>
-            <p class="project-description">Designed and implemented React-based Web Application which utilizes the Covalent API to display DEX metrics across multiple chains supported by covalent.</p>
+            <p class="project-description">React-based Web Application utilizing the Covalent API to display DEX metrics across multiple chains supported by Covalent for comprehensive DeFi analytics.</p>
             
             <div class="project-tech">
                 <span class="tech-tag">ReactJS</span>
