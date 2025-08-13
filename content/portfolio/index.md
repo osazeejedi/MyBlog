@@ -80,11 +80,13 @@ cover:
         </div>
         {{< /rawhtml >}}
         
+        {{< rawhtml >}}
         <div class="contact-info">
             <a href="mailto:oghagbonosazee20@gmail.com" class="contact-link">
                 📧 Get In Touch
             </a>
         </div>
+        {{< /rawhtml >}}
     </div>
 </div>
 
