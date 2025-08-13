@@ -1,0 +1,686 @@
+/* Custom styles for enhanced blog appearance with dark theme focus */
+
+/* Custom CSS Variables for Dark Theme */
+:root {
+    --accent-color: #6366f1;
+    --accent-hover: #4f46e5;
+    --accent-light: #818cf8;
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --gradient-primary: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    --shadow-dark: rgba(0, 0, 0, 0.3);
+    --shadow-light: rgba(0, 0, 0, 0.1);
+    
+    /* Typography colors */
+    --text-gray: #6b7280;
+    --heading-light-gray: #d1d5db;
+    --heading-dark-gray: #374151;
+}
+
+/* Global font family - more specific to avoid breaking navigation */
+body,
+.post-content,
+.hero-section,
+.home-section,
+.contact-method,
+.social-link {
+    font-family: 'Jost', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+/* Force font application on all text elements */
+h1, h2, h3, h4, h5, h6, p, span, div, a, li {
+    font-family: 'Jost', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem;
+    margin: 2rem 0 4rem 0;
+    background: var(--entry);
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    box-shadow: 0 8px 32px var(--shadow-light);
+    transition: all 0.3s ease;
+}
+
+.hero-section:hover {
+    box-shadow: 0 12px 40px var(--shadow-light);
+    transform: translateY(-2px);
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex-shrink: 0;
+}
+
+.hero-image img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 3px solid var(--accent-color);
+    box-shadow: 0 8px 25px var(--shadow-dark);
+    transition: all 0.3s ease;
+}
+
+.hero-image img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 35px var(--shadow-dark);
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+.hero-subtitle {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: var(--text-gray);
+}
+
+.hero-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text-gray);
+    margin-bottom: 0;
+}
+
+/* Responsive hero section */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+        gap: 2rem;
+    }
+    
+    .hero-image img {
+        width: 150px;
+        height: 180px;
+    }
+    
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .hero-description {
+        font-size: 1rem;
+    }
+}
+
+/* Enhanced typography */
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.post-content h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--content);
+    transition: color 0.3s ease;
+}
+
+.post-content h1:hover {
+    color: var(--accent-color);
+}
+
+.post-content h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+    color: var(--content);
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.post-content h2:hover {
+    color: var(--accent-color);
+    border-bottom-color: var(--accent-color);
+}
+
+.post-content h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--content);
+    transition: color 0.3s ease;
+}
+
+.post-content h3:hover {
+    color: var(--accent-color);
+}
+
+/* Enhanced code blocks */
+.post-content pre {
+    border-radius: 12px;
+    margin: 1.5rem 0;
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 6px var(--shadow-light);
+}
+
+.post-content code {
+    font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
+    font-size: 0.9em;
+}
+
+.post-content p code {
+    background: var(--code-bg);
+    padding: 0.2rem 0.4rem;
+    border-radius: 6px;
+    font-size: 0.85em;
+    border: 1px solid var(--border);
+}
+
+/* Enhanced blockquotes */
+.post-content blockquote {
+    border-left: 4px solid var(--accent-color);
+    margin: 1.5rem 0;
+    padding: 1rem 1.5rem;
+    background: var(--code-bg);
+    border-radius: 0 12px 12px 0;
+    font-style: italic;
+    position: relative;
+}
+
+.post-content blockquote::before {
+    content: '"';
+    font-size: 3rem;
+    color: var(--accent-color);
+    position: absolute;
+    top: -0.5rem;
+    left: 0.5rem;
+    opacity: 0.3;
+}
+
+/* Enhanced lists */
+.post-content ul,
+.post-content ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.post-content li {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+.post-content ul li::marker {
+    color: var(--accent-color);
+}
+
+/* Enhanced contact page styling */
+.contact-method {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    background: var(--entry);
+    border-radius: 12px;
+    border-left: 4px solid var(--accent-color);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px var(--shadow-light);
+}
+
+.contact-method:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--shadow-light);
+}
+
+.contact-method h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+    color: var(--accent-color);
+}
+
+.contact-method p {
+    margin: 0;
+    color: var(--secondary);
+}
+
+/* Social links styling */
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.75rem 1.25rem;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--content);
+    transition: all 0.3s ease;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+}
+
+.social-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--gradient-primary);
+    transition: left 0.3s ease;
+    z-index: -1;
+}
+
+.social-link:hover::before {
+    left: 0;
+}
+
+.social-link:hover {
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--shadow-dark);
+    border-color: var(--accent-color);
+}
+
+/* Enhanced home page styling */
+.home-section {
+    margin: 2.5rem 0;
+    padding: 2rem;
+    background: var(--entry);
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 6px var(--shadow-light);
+    transition: all 0.3s ease;
+}
+
+.home-section:hover {
+    box-shadow: 0 8px 25px var(--shadow-light);
+}
+
+.home-section h2 {
+    margin-top: 0;
+    color: var(--content);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.home-section h2:hover {
+    color: var(--accent-color);
+    border-bottom-color: var(--accent-color);
+}
+
+.home-section h3 {
+    color: var(--content);
+    transition: color 0.3s ease;
+}
+
+.home-section h3:hover {
+    color: var(--accent-color);
+}
+
+/* Feature grid for home page sections */
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.feature-item {
+    padding: 1.5rem;
+    background: var(--entry);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.feature-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--gradient-primary);
+}
+
+.feature-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px var(--shadow-light);
+}
+
+.feature-item h3 {
+    margin-top: 0;
+    color: var(--accent-color);
+}
+
+/* Enhanced buttons and links */
+a {
+    color: var(--accent-color);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--accent-hover);
+}
+
+/* Profile image styling */
+img[alt="About me"] {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid var(--accent-color);
+    box-shadow: 0 8px 25px var(--shadow-dark);
+    transition: all 0.3s ease;
+}
+
+img[alt="About me"]:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 35px var(--shadow-dark);
+}
+
+/* Mobile Navigation Fixes */
+@media (max-width: 768px) {
+    /* Ensure hamburger menu works properly */
+    .menu-button,
+    #menu-toggle {
+        z-index: 1000;
+        position: relative;
+    }
+    
+    /* Mobile menu styling */
+    .menu {
+        z-index: 999;
+    }
+    
+    /* Better touch targets for mobile */
+    .menu a,
+    .menu-button {
+        min-height: 44px;
+        min-width: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* Hero section mobile improvements */
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+        gap: 2rem;
+        margin: 1rem 0 2rem 0;
+    }
+    
+    .hero-image img {
+        width: 150px;
+        height: 180px;
+    }
+    
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .hero-description {
+        font-size: 1rem;
+    }
+    
+    /* Typography mobile adjustments */
+    .post-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .post-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    /* Layout mobile improvements */
+    .social-links {
+        flex-direction: column;
+    }
+    
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .home-section {
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+    }
+    
+    .contact-method {
+        padding: 1rem;
+    }
+    
+    img[alt="About me"] {
+        width: 120px;
+        height: 120px;
+    }
+    
+    /* Better mobile spacing */
+    body {
+        padding: 0 1rem;
+    }
+    
+    /* Prevent horizontal scroll */
+    .hero-section,
+    .home-section,
+    .post-content {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+/* Additional mobile breakpoints */
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .hero-description {
+        font-size: 0.9rem;
+    }
+    
+    .hero-image img {
+        width: 120px;
+        height: 150px;
+    }
+    
+    .home-section {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+}
+
+/* Very small screens */
+@media (max-width: 320px) {
+    .hero-section {
+        padding: 1rem;
+        gap: 1rem;
+    }
+    
+    .hero-title {
+        font-size: 1.5rem;
+    }
+    
+    .hero-image img {
+        width: 100px;
+        height: 130px;
+    }
+}
+
+/* Dark theme enhancements */
+[data-theme="dark"] {
+    --code-bg: rgba(255, 255, 255, 0.05);
+    --primary-hover: var(--accent-hover);
+}
+
+[data-theme="dark"] .hero-title {
+    color: var(--heading-light-gray);
+}
+
+/* Light theme enhancements */
+[data-theme="light"] {
+    --code-bg: rgba(0, 0, 0, 0.05);
+    --primary-hover: var(--accent-hover);
+}
+
+[data-theme="light"] .hero-title {
+    color: var(--heading-dark-gray);
+}
+
+/* Default text colors */
+body {
+    color: var(--text-gray);
+}
+
+/* Override default text color for better readability */
+.post-content p,
+.post-content li,
+.hero-description,
+.hero-subtitle {
+    color: var(--text-gray);
+}
+
+/* Smooth transitions for theme switching - more specific to avoid breaking navigation */
+body,
+.post-content,
+.hero-section,
+.home-section,
+.contact-method,
+.social-link,
+.feature-item {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Enhanced focus states for accessibility */
+a:focus,
+button:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--theme);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-hover);
+}
+
+/* Loading animation for images */
+img {
+    transition: opacity 0.3s ease;
+}
+
+img:not([src]) {
+    opacity: 0;
+}
+
+/* Enhanced table styling */
+.post-content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px var(--shadow-light);
+}
+
+.post-content th,
+.post-content td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+.post-content th {
+    background: var(--accent-color);
+    color: white;
+    font-weight: 600;
+}
+
+.post-content tr:hover {
+    background: var(--code-bg);
+}
+
+/* Print styles */
+@media print {
+    .home-section {
+        break-inside: avoid;
+    }
+    
+    .social-links {
+        display: none;
+    }
+    
+    img[alt="About me"] {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Animation for page load */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.post-content,
+.home-section {
+    animation: fadeInUp 0.6s ease-out;
+}

@@ -29,13 +29,80 @@
 <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 
-<!-- Custom CSS - Load after theme CSS for proper override -->
-<link rel="stylesheet" href="{{ "css/custom.css" | absURL }}" media="all">
+<!-- Custom CSS using Hugo's asset pipeline for better processing -->
+{{ $customCSS := resources.Get "css/custom.css" }}
+{{ if $customCSS }}
+  {{ $customCSS = $customCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $customCSS.RelPermalink }}" integrity="{{ $customCSS.Data.Integrity }}" media="all">
+{{ else }}
+  <!-- Fallback to static CSS if assets not found -->
+  <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}" media="all">
+{{ end }}
 
 <!-- Additional CSS priority fix -->
 <style>
 /* Force custom font family application */
 body, .post-content, .hero-section, .home-section {
     font-family: 'Jost', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+/* Ensure hero section styles are applied with high specificity */
+.post-content .hero-section {
+    display: flex !important;
+    align-items: center !important;
+    gap: 3rem !important;
+    padding: 3rem !important;
+    margin: 2rem 0 4rem 0 !important;
+    background: var(--entry) !important;
+    border-radius: 20px !important;
+    border: 1px solid var(--border) !important;
+    box-shadow: 0 8px 32px var(--shadow-light) !important;
+}
+
+.post-content .hero-content {
+    flex: 1 !important;
+}
+
+.post-content .hero-image {
+    flex-shrink: 0 !important;
+}
+
+.post-content .hero-image img {
+    width: 200px !important;
+    height: 250px !important;
+    object-fit: cover !important;
+    border-radius: 16px !important;
+    border: 3px solid var(--accent-color) !important;
+    box-shadow: 0 8px 25px var(--shadow-dark) !important;
+}
+
+.post-content .hero-title {
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.1 !important;
+}
+
+.post-content .hero-subtitle {
+    font-size: 1.3rem !important;
+    font-weight: 500 !important;
+    margin-bottom: 1.5rem !important;
+    color: var(--text-gray) !important;
+}
+
+.post-content .hero-description {
+    font-size: 1.1rem !important;
+    line-height: 1.6 !important;
+    color: var(--text-gray) !important;
+    margin-bottom: 0 !important;
+}
+
+/* CSS Variables for consistent theming */
+:root {
+    --accent-color: #6366f1;
+    --accent-hover: #4f46e5;
+    --text-gray: #6b7280;
+    --shadow-light: rgba(0, 0, 0, 0.1);
+    --shadow-dark: rgba(0, 0, 0, 0.3);
 }
 </style>
