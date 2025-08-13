@@ -1,6 +1,6 @@
 baseURL = 'https://my-blog-osazeejedi.vercel.app/'
 languageCode = 'en-us'
-title = "Osazee's Blog"
+title = ""
 theme = 'PaperMod'
 
 # Build settings
