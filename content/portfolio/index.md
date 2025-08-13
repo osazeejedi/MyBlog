@@ -32,15 +32,49 @@ cover:
         <p class="portfolio-description">I'm a Blockchain developer, Program Manager and Data scientist. Primarily interested in Blockchain Development and Leading teams to deploying quality products on time and in budget. I enjoy learning new skills and implementing them in real life!</p>
         
         <div class="skills-section">
-            <h3>Core Skills</h3>
-            <div class="skills-grid">
-                <span class="skill-tag">Coding</span>
-                <span class="skill-tag">Writing</span>
-                <span class="skill-tag">Program Management</span>
-                <span class="skill-tag">Public Speaking</span>
-                <span class="skill-tag">Problem Solving</span>
-                <span class="skill-tag">Team Management</span>
-                <span class="skill-tag">Mentoring</span>
+            <h3>Technologies I Work With</h3>
+            
+            <div class="tech-category">
+                <h4>Languages & Frameworks</h4>
+                <div class="skills-grid">
+                    <span class="skill-tag">JavaScript/TypeScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Django</span>
+                    <span class="skill-tag">FastAPI</span>
+                    <span class="skill-tag">Go</span>
+                    <span class="skill-tag">Rust (learning)</span>
+                    <span class="skill-tag">HTML/CSS</span>
+                    <span class="skill-tag">Tailwind CSS</span>
+                </div>
+            </div>
+            
+            <div class="tech-category">
+                <h4>Tools & Platforms</h4>
+                <div class="skills-grid">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Kubernetes</span>
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">Vercel</span>
+                    <span class="skill-tag">Netlify</span>
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">Terminal</span>
+                </div>
+            </div>
+            
+            <div class="tech-category">
+                <h4>Currently Exploring</h4>
+                <div class="skills-grid">
+                    <span class="skill-tag exploring">WebAssembly</span>
+                    <span class="skill-tag exploring">Performance Optimization</span>
+                    <span class="skill-tag exploring">Serverless Architectures</span>
+                    <span class="skill-tag exploring">Developer Tooling</span>
+                    <span class="skill-tag exploring">Automation</span>
+                </div>
             </div>
         </div>
         
