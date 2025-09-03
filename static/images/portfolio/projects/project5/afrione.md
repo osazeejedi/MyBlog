@@ -1,0 +1,1 @@
+blockchain-powered e-voucher system to enable cross-border payments and financial inclusion across Africa, the US, and the UK. Blockwave was commissioned to design and deliver the full architecture and software stack for the solution, codenamed Afrione.

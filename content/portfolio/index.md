@@ -45,7 +45,7 @@ cover:
                     <span class="skill-tag">Django</span>
                     <span class="skill-tag">FastAPI</span>
                     <span class="skill-tag">Go</span>
-                    <span class="skill-tag">Rust (learning)</span>
+                    <span class="skill-tag">Rust</span>
                     <span class="skill-tag">HTML/CSS</span>
                     <span class="skill-tag">Tailwind CSS</span>
                 </div>
@@ -158,7 +158,7 @@ cover:
         <div class="experience-content">
             <ul class="responsibilities">
                 <li>Established and implemented short- and long-range goals, objectives, and operating procedures</li>
-                <li>Managed a portfolio of AI projects, ensuring coordination of shared resources which lead to a revenue of $2million</li>
+                <li>Managed a portfolio of AI projects, ensuring coordination of shared resources which lead to a revenue of $200k</li>
                 <li>Developed a comprehensive monitoring of issues and dependencies to remove any roadblocks resulting in 99% of milestones achieved on time</li>
                 <li>Fostered a culture of robust documentation both internally and externally, reducing the number of customer support request by 20%</li>
                 <li>Led onboarding process acting as customer champion to ensure quick adaptation resulting in user engagement rate of 72%</li>
@@ -280,9 +280,7 @@ cover:
 
     <div class="project-card">
         <div class="project-image">
-            <div class="project-placeholder">
-                <span>📊</span>
-            </div>
+            <img src="/images/portfolio/projects/dexsense.png" alt="DexSense DEX Analytics Dashboard" />
         </div>
         <div class="project-content">
             <h3 class="project-title">DexSense</h3>
@@ -299,6 +297,69 @@ cover:
                     <span>GitHub</span>
                 </a>
                 <a href="https://dex-dashboard-pi.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Live Demo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project5/photo_2023-10-21_10-18-57.jpg" alt="Afrione Project" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">Afrione Project</h3>
+            <p class="project-description">Blockchain-powered e-voucher system enabling cross-border payments and financial inclusion across Africa, the US, and the UK. Commissioned by Blockwave to design and deliver the full architecture and software stack.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">Solidity</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Web3</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Blockchain</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="https://ruddy-hugger-0e6.notion.site/Afrione-Project-1e23a50b9caf49c6bca906bab00a68bb" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Documentation</span>
+                </a>
+                <a href="https://site.afrione.co/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Official Site</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project6/logo.webp" alt="Prospero Credit Platform" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">Prospero Credit Platform</h3>
+            <p class="project-description">Next-generation AI-powered credit platform that uses AI to match borrowers and lenders in real-time, performs AI-driven credit scoring using financial and behavioral data, and records all loans on a private blockchain.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">Solidity</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">AI/ML</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="https://ruddy-hugger-0e6.notion.site/ProsperoCredit-263781fe7da9801d8fc2d125ec78b5cd" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Documentation</span>
+                </a>
+                <a href="https://web-frontend-pi-puce.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
                     <span>Live Demo</span>
                 </a>
             </div>
