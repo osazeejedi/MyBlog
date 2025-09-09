@@ -98,7 +98,7 @@ cover:
             <div class="experience-meta">
                 <span class="company">Axyzglobal</span>
                 <span class="location">Remote</span>
-                <span class="date-range">August 2022 - Present</span>
+                <span class="date-range">August 2022 - December 2023</span>
             </div>
         </div>
         <div class="experience-content">
@@ -219,8 +219,8 @@ cover:
                 <a href="#" class="project-link github-link private">
                     <span>GitHub (Private)</span>
                 </a>
-                <a href="https://ruddy-hugger-0e6.notion.site/Mansu-Wallet-App-Documentation-1d5781fe7da980108ab1c5f64e1bc0a1" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>App Documentation</span>
+                <a href="#" class="project-link demo-link private">
+                    <span>Documentation (Private)</span>
                 </a>
             </div>
         </div>
@@ -324,8 +324,8 @@ cover:
                 <a href="#" class="project-link github-link private">
                     <span>GitHub (Private)</span>
                 </a>
-                <a href="https://ruddy-hugger-0e6.notion.site/Afrione-Project-1e23a50b9caf49c6bca906bab00a68bb" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Documentation</span>
+                <a href="#" class="project-link demo-link private">
+                    <span>Documentation (Private)</span>
                 </a>
                 <a href="https://site.afrione.co/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
                     <span>Official Site</span>
@@ -356,11 +356,11 @@ cover:
                 <a href="#" class="project-link github-link private">
                     <span>GitHub (Private)</span>
                 </a>
-                <a href="https://ruddy-hugger-0e6.notion.site/ProsperoCredit-263781fe7da9801d8fc2d125ec78b5cd" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Documentation</span>
+                <a href="#" class="project-link demo-link private">
+                    <span>Documentation (Private)</span>
                 </a>
-                <a href="https://web-frontend-pi-puce.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Live Demo</span>
+                <a href="#" class="project-link demo-link private">
+                    <span>Live Demo (Private)</span>
                 </a>
             </div>
         </div>
