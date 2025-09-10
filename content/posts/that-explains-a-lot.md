@@ -9,8 +9,6 @@ categories = ['Personal']
 
 ![Sometimes the real hero is the one who just keeps walking](/images/samwise.webp "Sometimes the real hero is the one who just keeps walking")
 
-# That explains a lot 😂😩
-
 You ever noticed how life feels like a badly written movie sometimes?
 
 One minute you're the hero with big dreams, the next you're the side character stuck with mop duty. And yet, somehow, the people who make it through aren't always the fastest, smartest, or strongest. They're just the ones stubborn (or crazy) enough not to quit.
