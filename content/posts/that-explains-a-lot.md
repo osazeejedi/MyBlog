@@ -33,7 +33,7 @@ And then there's Frodo. My guy had to walk across Middle-earth with a cursed rin
 
 Now, let's leave Middle-earth for Silicon Valley. Everyone knows Apple today as the trillion-dollar giant, but rewind to the '90s. Apple was so close to dying they could've held a clearance sale. Their products were failing, they fired Steve Jobs, and Microsoft literally bailed them out with a $150 million investment (yep, Bill Gates was their Frodo for a minute). Imagine that Apple, the company that now charges $1,000 for a phone stand, was once broke and begging.
 
-But here's the plot twist: Jobs came back. He kept trying, tweaking, failing, trying again. Out of those messy years came the iMac, the iPod, the iPhone. Today, Apple is less a company and more a lifestyle choice. That's not magic—that's persistence dressed up in turtlenecks.
+But here's the plot twist: Jobs came back. He kept trying, tweaking, failing, trying again. Out of those messy years came the iMac, the iPod, the iPhone. Today, Apple is less a company and more a lifestyle choice. That's not magic...that's persistence dressed up in turtlenecks.
 
 ## The Real Lesson
 
