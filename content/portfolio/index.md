@@ -104,7 +104,7 @@ cover:
         </div>
         <div class="experience-content">
             <ul class="responsibilities">
-                <li>Built and maintained real-time trading automation features with Node.js, React, PostgreSQL, and AWS, supporting 10k+ transactions daily</li>
+                <li>Built and maintained real-time trading automation features with Node.js, React, PostgreSQL, and AWS, supporting 1k+ transactions daily</li>
                 <li>Deployed event-driven architectures that reduced trade execution latency by 30%, enabling instant swaps and live notifications</li>
                 <li>Integrated secure wallet services, processing crypto transfers valued at $5M+ monthly with high reliability</li>
                 <li>Enhanced analytics dashboards and data models, improving trader decision-making by providing real-time portfolio insights</li>
