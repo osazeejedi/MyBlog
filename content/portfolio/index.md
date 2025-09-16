@@ -137,7 +137,7 @@ cover:
             <div class="experience-meta">
                 <span class="company">Blockwave Consult</span>
                 <span class="location">Lagos, Nigeria</span>
-                <span class="date-range">Aug 2022 – Present</span>
+                <span class="date-range">Aug 2022 – Feb 2024</span>
             </div>
         </div>
         <div class="experience-content">
