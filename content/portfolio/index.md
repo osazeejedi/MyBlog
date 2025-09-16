@@ -1,6 +1,6 @@
 ---
 title: "Portfolio"
-description: "Blockchain Developer, Program Manager and Data Scientist - Showcasing my professional experience and featured projects"
+description: "Software Engineer, Program Manager and Data Scientist - Showcasing my professional experience and featured projects"
 date: 2024-01-01
 draft: false
 showToc: false
@@ -29,8 +29,8 @@ cover:
 <div class="portfolio-hero">
     <div class="portfolio-intro">
         <h1 class="portfolio-title">Osazee Jedidiah O</h1>
-        <h2 class="portfolio-subtitle">Blockchain Developer, Program Manager and Data Scientist</h2>
-        <p class="portfolio-description">I'm a Blockchain developer, Program Manager and Data scientist. Primarily interested in Blockchain Development and Leading teams to deploying quality products on time and in budget. I enjoy learning new skills and implementing them in real life!</p>
+        <h2 class="portfolio-subtitle">Software Engineer, Program Manager and Data Scientist</h2>
+        <p class="portfolio-description">I'm a Software Engineer, Program Manager and Data scientist. Primarily interested in Blockchain Development, Supply-chain, fintech, Education and Leading teams to deploying quality products on time and in budget. I enjoy learning new skills and implementing them in real life!</p>
         
         <div class="skills-section">
             <h3>Technologies I Work With</h3>
