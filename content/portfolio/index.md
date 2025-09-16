@@ -44,7 +44,6 @@ cover:
                     <span class="skill-tag">Python</span>
                     <span class="skill-tag">Django</span>
                     <span class="skill-tag">FastAPI</span>
-                    <span class="skill-tag">Go</span>
                     <span class="skill-tag">Rust</span>
                     <span class="skill-tag">HTML/CSS</span>
                     <span class="skill-tag">Tailwind CSS</span>
@@ -62,6 +61,8 @@ cover:
                     <span class="skill-tag">Netlify</span>
                     <span class="skill-tag">PostgreSQL</span>
                     <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">CouchDB</span>
+                    <span class="skill-tag">Redis</span>
                     <span class="skill-tag">VS Code</span>
                     <span class="skill-tag">Terminal</span>
                 </div>
@@ -94,22 +95,105 @@ cover:
 <div class="experience-timeline">
     <div class="experience-item">
         <div class="experience-header">
-            <h3 class="experience-title">Blockchain Developer</h3>
+            <h3 class="experience-title">Software Engineer</h3>
             <div class="experience-meta">
-                <span class="company">Axyzglobal</span>
+                <span class="company"><a href="https://stormbotx.io" target="_blank" rel="noopener noreferrer">StormBot</a></span>
                 <span class="location">Remote</span>
-                <span class="date-range">August 2022 - December 2023</span>
+                <span class="date-range">Feb 2024 – Present</span>
             </div>
         </div>
         <div class="experience-content">
             <ul class="responsibilities">
-                <li>Managed and developed a supply chain protocol on the ethereum blockchain</li>
-                <li>Worked autonomously on building a supply chain protocol on hyperledger</li>
-                <li>Liaised with remote team members across the country</li>
+                <li>Built and maintained real-time trading automation features with Node.js, React, PostgreSQL, and AWS, supporting 10k+ transactions daily</li>
+                <li>Deployed event-driven architectures that reduced trade execution latency by 30%, enabling instant swaps and live notifications</li>
+                <li>Integrated secure wallet services, processing crypto transfers valued at $5M+ monthly with high reliability</li>
+                <li>Enhanced analytics dashboards and data models, improving trader decision-making by providing real-time portfolio insights</li>
             </ul>
         </div>
     </div>
     
+    <div class="experience-item">
+        <div class="experience-header">
+            <h3 class="experience-title">Technical Programs Lead</h3>
+            <div class="experience-meta">
+                <span class="company"><a href="https://knowtheblocks.org" target="_blank" rel="noopener noreferrer">KnowTheBlocks Maven</a></span>
+                <span class="location">Remote (Nigeria, US)</span>
+                <span class="date-range">May 2023 – Present</span>
+            </div>
+        </div>
+        <div class="experience-content">
+            <ul class="responsibilities">
+                <li>Architected and deployed offline-first logistics and training platforms using Node.js, PostgreSQL, and AWS, achieving 99.5% system uptime across unstable internet environments</li>
+                <li>Designed and executed scalable codebases used by over 200 interns at Veritas University and additional partner institutions</li>
+                <li>Automated event-driven workflows, reducing manual reporting time by 40%</li>
+                <li>Led cross-border engineering teams in Nigeria and the US, improving collaboration velocity by 20% through structured code reviews and agile practices</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="experience-item">
+        <div class="experience-header">
+            <h3 class="experience-title">Lead Blockchain & Software Architect</h3>
+            <div class="experience-meta">
+                <span class="company">Blockwave Consult</span>
+                <span class="location">Lagos, Nigeria</span>
+                <span class="date-range">Aug 2022 – Present</span>
+            </div>
+        </div>
+        <div class="experience-content">
+            <ul class="responsibilities">
+                <li>Led design and development of enterprise-grade blockchain and full stack systems for fintech, logistics, and governance clients</li>
+                <li>Architected event-driven Node.js + PostgreSQL platforms that scaled to 50k+ monthly users across distributed environments</li>
+                <li>Deployed blockchain-based identity and payments infrastructure, enabling secure cross-border transactions with 99% reliability</li>
+                <li>Designed data models and reporting flows that improved supply chain visibility and reduced reconciliation time by 25% for client operations</li>
+                <li>Guided a distributed engineering team, increasing delivery efficiency through code quality enforcement and agile practices</li>
+                <li>Delivered offline-first, serverless solutions that supported logistics operations in areas with intermittent internet connectivity</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="experience-item">
+        <div class="experience-header">
+            <h3 class="experience-title">Blockchain Developer</h3>
+            <div class="experience-meta">
+                <span class="company"><a href="https://www.web3bridge.com/" target="_blank" rel="noopener noreferrer">Web3Bridge</a></span>
+                <span class="location">Lagos, Nigeria</span>
+                <span class="date-range">Jan 2022 – Aug 2022</span>
+            </div>
+        </div>
+        <div class="experience-content">
+            <ul class="responsibilities">
+                <li>Built and deployed smart contracts (EIP-2535 upgradeable architecture) supporting decentralized apps with &lt;5% gas cost savings through optimization</li>
+                <li>Integrated advanced cryptography (Merkle trees, zkProofs) to enhance transaction security and scalability</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="experience-item">
+        <div class="experience-header">
+            <h3 class="experience-title">Senior Program Manager / Program Manager</h3>
+            <div class="experience-meta">
+                <span class="company"><a href="https://www.covenworks.com/" target="_blank" rel="noopener noreferrer">Coven Works</a></span>
+                <span class="location">Nigeria / US (Remote)</span>
+                <span class="date-range">May 2021 – Feb 2022</span>
+            </div>
+        </div>
+        <div class="experience-content">
+            <ul class="responsibilities">
+                <li>Oversaw enterprise tech programs with budgets exceeding $100k, delivering solutions that scaled to hundreds of learners and clients</li>
+                <li>Designed and implemented data-driven systems that increased AI program enrollments by 12% month-over-month</li>
+                <li>Applied analytics to improve operational reporting efficiency, cutting reporting lag by 30%</li>
+                <li>Facilitated cross-cultural collaboration across Nigeria and the US, enabling smoother distributed delivery</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{{< /rawhtml >}}
+
+## Earlier Roles (Condensed)
+
+{{< rawhtml >}}
+<div class="experience-timeline">
     <div class="experience-item">
         <div class="experience-header">
             <h3 class="experience-title">Data Alchemist - Quest Designer</h3>
@@ -121,50 +205,64 @@ cover:
         </div>
         <div class="experience-content">
             <ul class="responsibilities">
-                <li>Designed and managed an quest for the covalent Data alchemist program</li>
-                <li>Provided technical support and organised workshops for Data alchemist</li>
-                <li>Organised a Hackathon-in-a-box for the covalent community in Lagos</li>
+                <li>Designed and managed quests for the Covalent Data Alchemist program</li>
+                <li>Provided technical support and organized workshops for Data Alchemists</li>
+                <li>Organized a Hackathon-in-a-box for the Covalent community in Lagos</li>
             </ul>
         </div>
     </div>
     
     <div class="experience-item">
         <div class="experience-header">
-            <h3 class="experience-title">Blockchain Developer (Smart Contracts)</h3>
+            <h3 class="experience-title">Tech Support / Data Analyst</h3>
             <div class="experience-meta">
-                <span class="company"><a href="https://www.web3bridge.com/" target="_blank" rel="noopener noreferrer">Web3Bridge</a></span>
-                <span class="location">Remote</span>
-                <span class="date-range">December 2021 - May 2022</span>
+                <span class="company">Datatom.E.G.A (Edo State Gov't Project)</span>
+                <span class="location">Edo State, Nigeria</span>
+                <span class="date-range">2020 - 2021</span>
             </div>
         </div>
         <div class="experience-content">
             <ul class="responsibilities">
-                <li>Designed and developed smart contract with solidity, javascript and hardhat</li>
-                <li>Designed and developed upgradeable proxy contracts using EIP2535</li>
-                <li>Designed and developed smart contracts for deployment on ZkEvm</li>
+                <li>Improved geospatial data accuracy by 15% through optimized data pipelines</li>
             </ul>
         </div>
     </div>
     
     <div class="experience-item">
         <div class="experience-header">
-            <h3 class="experience-title">Senior Program Manager/ Technical Program Manager</h3>
+            <h3 class="experience-title">Researcher</h3>
             <div class="experience-meta">
-                <span class="company"><a href="https://www.covenworks.com/" target="_blank" rel="noopener noreferrer">Coven Works</a></span>
-                <span class="location">Remote</span>
-                <span class="date-range">May 2020 - February 2022</span>
+                <span class="company">Farmsense.ng (USAID-funded project)</span>
+                <span class="location">Nigeria</span>
+                <span class="date-range">2019 - 2020</span>
             </div>
         </div>
         <div class="experience-content">
             <ul class="responsibilities">
-                <li>Established and implemented short- and long-range goals, objectives, and operating procedures</li>
-                <li>Managed a portfolio of AI projects, ensuring coordination of shared resources which lead to a revenue of $200k</li>
-                <li>Developed a comprehensive monitoring of issues and dependencies to remove any roadblocks resulting in 99% of milestones achieved on time</li>
-                <li>Fostered a culture of robust documentation both internally and externally, reducing the number of customer support request by 20%</li>
-                <li>Led onboarding process acting as customer champion to ensure quick adaptation resulting in user engagement rate of 72%</li>
-                <li>Created and implemented PMO best practices, ensuring alignment with SDLC and business process using Agile Methodology</li>
+                <li>Designed open geospatial data collection models for agriculture and supply chain resilience research</li>
             </ul>
         </div>
+    </div>
+</div>
+{{< /rawhtml >}}
+
+## Education & Certifications
+
+{{< rawhtml >}}
+<div class="education-section">
+    <div class="education-item">
+        <h3>B.Sc. Agricultural Economics & Extension Services</h3>
+        <p class="institution">University of Benin (2014–2019)</p>
+    </div>
+    
+    <div class="certifications">
+        <h3>Professional Certifications</h3>
+        <ul class="cert-list">
+            <li>AWS Certified Solutions Architect – Associate</li>
+            <li>AWS Cloud Practitioner</li>
+            <li>Zero Knowledge Cryptography Bootcamp – Encode Club (2023)</li>
+            <li>Alchemy University (2022)</li>
+        </ul>
     </div>
 </div>
 {{< /rawhtml >}}

@@ -22,7 +22,7 @@ minify = true
   author = "Osazee Oghagbon"
   
   # Dark mode settings
-  defaultTheme = "dark"
+  defaultTheme = "light"
   disableThemeToggle = false
   
   # Show reading time and word count

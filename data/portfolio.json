@@ -20,61 +20,115 @@
   "experience": [
     {
       "id": 1,
-      "title": "Blockchain Developer",
-      "company": "Axyzglobal",
+      "title": "Software Engineer",
+      "company": "StormBot",
       "location": "Remote",
-      "range": "August 2022 - Present",
-      "url": "#",
-      "date": "2021-08-11",
+      "range": "Feb 2024 – Present",
+      "url": "https://stormbotx.io",
+      "date": "2024-02-01",
       "responsibilities": [
-        "Managed and developed a supply chain protocol on the ethereum blockchain",
-        "Worked autonomously on building a supply chain protocol on hyperledger",
-        "Liaised with remote team members across the country"
+        "Built and maintained real-time trading automation features with Node.js, React, PostgreSQL, and AWS, supporting 10k+ transactions daily",
+        "Deployed event-driven architectures that reduced trade execution latency by 30%, enabling instant swaps and live notifications",
+        "Integrated secure wallet services, processing crypto transfers valued at $5M+ monthly with high reliability",
+        "Enhanced analytics dashboards and data models, improving trader decision-making by providing real-time portfolio insights"
       ]
     },
     {
       "id": 2,
+      "title": "Technical Programs Lead",
+      "company": "KnowTheBlocks Maven",
+      "location": "Remote (Nigeria, US)",
+      "range": "May 2023 – Present",
+      "url": "https://knowtheblocks.org",
+      "date": "2023-05-01",
+      "responsibilities": [
+        "Architected and deployed offline-first logistics and training platforms using Node.js, PostgreSQL, and AWS, achieving 99.5% system uptime across unstable internet environments",
+        "Designed and executed scalable codebases used by over 200 interns at Veritas University and additional partner institutions",
+        "Automated event-driven workflows, reducing manual reporting time by 40%",
+        "Led cross-border engineering teams in Nigeria and the US, improving collaboration velocity by 20% through structured code reviews and agile practices"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Lead Blockchain & Software Architect",
+      "company": "Blockwave Consult",
+      "location": "Lagos, Nigeria",
+      "range": "Aug 2022 – Present",
+      "url": "#",
+      "date": "2022-08-01",
+      "responsibilities": [
+        "Led design and development of enterprise-grade blockchain and full stack systems for fintech, logistics, and governance clients",
+        "Architected event-driven Node.js + PostgreSQL platforms that scaled to 50k+ monthly users across distributed environments",
+        "Deployed blockchain-based identity and payments infrastructure, enabling secure cross-border transactions with 99% reliability",
+        "Designed data models and reporting flows that improved supply chain visibility and reduced reconciliation time by 25% for client operations",
+        "Guided a distributed engineering team, increasing delivery efficiency through code quality enforcement and agile practices",
+        "Delivered offline-first, serverless solutions that supported logistics operations in areas with intermittent internet connectivity"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Blockchain Developer",
+      "company": "Web3Bridge",
+      "location": "Lagos, Nigeria",
+      "range": "Jan 2022 – Aug 2022",
+      "url": "https://www.web3bridge.com/",
+      "date": "2022-01-01",
+      "responsibilities": [
+        "Built and deployed smart contracts (EIP-2535 upgradeable architecture) supporting decentralized apps with <5% gas cost savings through optimization",
+        "Integrated advanced cryptography (Merkle trees, zkProofs) to enhance transaction security and scalability"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Senior Program Manager / Program Manager",
+      "company": "Coven Works",
+      "location": "Nigeria / US (Remote)",
+      "range": "May 2021 – Feb 2022",
+      "url": "https://www.covenworks.com/",
+      "date": "2021-05-01",
+      "responsibilities": [
+        "Oversaw enterprise tech programs with budgets exceeding $100k, delivering solutions that scaled to hundreds of learners and clients",
+        "Designed and implemented data-driven systems that increased AI program enrollments by 12% month-over-month",
+        "Applied analytics to improve operational reporting efficiency, cutting reporting lag by 30%",
+        "Facilitated cross-cultural collaboration across Nigeria and the US, enabling smoother distributed delivery"
+      ]
+    },
+    {
+      "id": 6,
       "title": "Data Alchemist - Quest Designer",
       "company": "CovalentHQ",
       "location": "Remote (Contract)",
       "range": "June 2022 - December 2022",
       "url": "https://www.covalenthq.com/",
-      "date": "2022-06-19",
+      "date": "2022-06-01",
       "responsibilities": [
-        "Designed and managed an quest for the covalent Data alchemist program",
-        "Provided technical support and organised workshops for Data alchemist",
-        "Organised a Hackathon-in-a-box for the covalent community in Lagos"
+        "Designed and managed quests for the Covalent Data Alchemist program",
+        "Provided technical support and organized workshops for Data Alchemists",
+        "Organized a Hackathon-in-a-box for the Covalent community in Lagos"
       ]
     },
     {
-      "id": 3,
-      "title": "Blockchain Developer (Smart Contracts)",
-      "company": "Web3Bridge",
-      "location": "Remote",
-      "range": "December 2021 - May 2022",
-      "url": "https://www.web3bridge.com/",
-      "date": "2021-12-01",
+      "id": 7,
+      "title": "Tech Support / Data Analyst",
+      "company": "Datatom.E.G.A",
+      "location": "Edo State, Nigeria",
+      "range": "2020 - 2021",
+      "url": "#",
+      "date": "2020-01-01",
       "responsibilities": [
-        "Designed and developed smart contract with solidity, javascript and hardhat",
-        "Designed and developed upgradeable proxy contracts using EIP2535",
-        "Designed and developed smart contracts for deployment on ZkEvm"
+        "Improved geospatial data accuracy by 15% through optimized data pipelines for Edo State Government project"
       ]
     },
     {
-      "id": 4,
-      "title": "Senior Program Manager/ Technical Program Manager",
-      "company": "Coven Works",
-      "location": "Remote",
-      "range": "May 2020 - February 2022",
-      "url": "https://www.covenworks.com/",
-      "date": "2020-09-21",
+      "id": 8,
+      "title": "Researcher",
+      "company": "Farmsense.ng",
+      "location": "Nigeria",
+      "range": "2019 - 2020",
+      "url": "#",
+      "date": "2019-01-01",
       "responsibilities": [
-        "Established and implemented short- and long-range goals, objectives, and operating procedures",
-        "Managed a portfolio of AI projects, ensuring coordination of shared resources which lead to a revenue of $2million",
-        "Developed a comprehensive monitoring of issues and dependencies to remove any roadblocks resulting in 99% of milestones achieved on time",
-        "Fostered a culture of robust documentation both internally and externally, reducing the number of customer support request by 20%",
-        "Led onboarding process acting as customer champion to ensure quick adaptation resulting in user engagement rate of 72%",
-        "Created and implemented PMO best practices, ensuring alignment with SDLC and business process using Agile Methodology"
+        "Designed open geospatial data collection models for agriculture and supply chain resilience research in USAID-funded project"
       ]
     }
   ],
