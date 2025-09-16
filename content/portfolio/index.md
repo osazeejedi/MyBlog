@@ -143,7 +143,7 @@ cover:
         <div class="experience-content">
             <ul class="responsibilities">
                 <li>Led design and development of enterprise-grade blockchain and full stack systems for fintech, logistics, and governance clients</li>
-                <li>Architected event-driven Node.js + PostgreSQL platforms that scaled to 50k+ monthly users across distributed environments</li>
+                <li>Architected event-driven Node.js + PostgreSQL platforms that scaled to 1k+ monthly users across distributed environments</li>
                 <li>Deployed blockchain-based identity and payments infrastructure, enabling secure cross-border transactions with 99% reliability</li>
                 <li>Designed data models and reporting flows that improved supply chain visibility and reduced reconciliation time by 25% for client operations</li>
                 <li>Guided a distributed engineering team, increasing delivery efficiency through code quality enforcement and agile practices</li>
