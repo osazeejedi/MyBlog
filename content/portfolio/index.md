@@ -30,7 +30,7 @@ cover:
     <div class="portfolio-intro">
         <h1 class="portfolio-title">Osazee Jedidiah O</h1>
         <h2 class="portfolio-subtitle">Software Engineer, Program Manager and Data Scientist</h2>
-        <p class="portfolio-description">I'm a Software Engineer, Program Manager and Data scientist. Primarily interested in Blockchain Development, Supply-chain, fintech, Education and Leading teams to deploying quality products on time and in budget. I enjoy learning new skills and implementing them in real life!</p>
+        <p class="portfolio-description">I'm a Software Engineer, Program Manager and Data scientist. Primarily interested in Blockchain Development, Health Tech, Supply-chain, fintech, Education and Leading teams to deploying quality products on time and in budget. I enjoy learning new skills and implementing them in real life!</p>
         
         <div class="skills-section">
             <h3>Technologies I Work With</h3>
@@ -423,7 +423,7 @@ cover:
                     <span>GitHub (Private)</span>
                 </a>
                 <a href="#" class="project-link demo-link private">
-                    <span>Documentation (Private(NDA))</span>
+                    <span>Doc (Private(NDA))</span>
                 </a>
                 <a href="https://site.afrione.co/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
                     <span>Project Landing Page</span>
@@ -455,7 +455,7 @@ cover:
                     <span>GitHub (Private)</span>
                 </a>
                 <a href="#" class="project-link demo-link private">
-                    <span>Documentation (Private (NDA))</span>
+                    <span>Doc (Private (NDA))</span>
                 </a>
                 <a href="#" class="project-link demo-link private">
                     <span>Live Demo (Private)</span>
