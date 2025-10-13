@@ -309,7 +309,7 @@ cover:
             <div class="project-tech">
                 <span class="tech-tag">React Native</span>
                 <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">PostgreSql</span>
                 <span class="tech-tag">Blockchain APIs</span>
             </div>
             
@@ -317,8 +317,8 @@ cover:
                 <a href="#" class="project-link github-link private">
                     <span>GitHub (Private)</span>
                 </a>
-                <a href="#" class="project-link demo-link private">
-                    <span>Documentation (Private)</span>
+                <a href="https://www.mansuwallet.com" class="project-link demo-link private">
+                    <span>Join Official Waitlist</span>
                 </a>
             </div>
         </div>
@@ -423,10 +423,10 @@ cover:
                     <span>GitHub (Private)</span>
                 </a>
                 <a href="#" class="project-link demo-link private">
-                    <span>Documentation (Private)</span>
+                    <span>Documentation (Private(NDA))</span>
                 </a>
                 <a href="https://site.afrione.co/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Official Site</span>
+                    <span>Project Landing Page</span>
                 </a>
             </div>
         </div>
@@ -455,7 +455,7 @@ cover:
                     <span>GitHub (Private)</span>
                 </a>
                 <a href="#" class="project-link demo-link private">
-                    <span>Documentation (Private)</span>
+                    <span>Documentation (Private (NDA))</span>
                 </a>
                 <a href="#" class="project-link demo-link private">
                     <span>Live Demo (Private)</span>
@@ -473,7 +473,7 @@ Data-driven software engineer with expertise in building scalable applications, 
 ---
 
 ### Currently Exploring
-
+- **Health Tech** solutions
 - **Layer 2 Solutions** for Ethereum scaling
 - **AI & Blockchain Integration** for innovative applications
 - **DeFi Protocols** and decentralized finance innovations
