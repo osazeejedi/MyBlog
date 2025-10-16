@@ -135,6 +135,17 @@
   "featured_projects": [
     {
       "id": 1,
+      "title": "StormBot",
+      "description": "Telegram-based multi-network trading bot delivering powerful analytics and intelligent trading tools. Features include snipe trading, instant swaps, real-time notifications, and secure wallet management with 1k+ daily transactions.",
+      "tech": ["Node.js", "React", "PostgreSQL", "AWS", "Telegram API", "Web3", "Real-time Analytics"],
+      "github": "#",
+      "external": "https://stormbotx.io",
+      "image": "stormbot.png",
+      "date": "2024-02-01",
+      "showInProjects": true
+    },
+    {
+      "id": 2,
       "title": "DexSense",
       "description": "Designed and implemented React-based Web Application which utilizes the Covalent API to display DEX metrics across multiple chains supported by covalent.",
       "tech": ["ReactJS", "ethersJS", "Covalent API"],
@@ -145,7 +156,7 @@
       "showInProjects": true
     },
     {
-      "id": 6,
+      "id": 3,
       "title": "Afrione Project",
       "description": "Blockchain-powered e-voucher system enabling cross-border payments and financial inclusion across Africa, the US, and the UK. Commissioned by Blockwave to design and deliver the full architecture and software stack.",
       "tech": ["Solidity", "React", "Node.js", "Web3", "MongoDB", "Blockchain"],
@@ -157,7 +168,7 @@
       "showInProjects": true
     },
     {
-      "id": 7,
+      "id": 4,
       "title": "Prospero Credit Platform",
       "description": "Next-generation AI-powered credit platform that uses AI to match borrowers and lenders in real-time, performs AI-driven credit scoring using financial and behavioral data, and records all loans on a private blockchain.",
       "tech": ["Python", "TensorFlow", "Solidity", "React", "Node.js", "PostgreSQL", "AI/ML"],
