@@ -277,7 +277,7 @@ cover:
         </div>
         <div class="project-content">
             <h3 class="project-title">StormBot</h3>
-            <p class="project-description">Telegram-based multi-network trading bot delivering powerful analytics and intelligent trading tools. Features include snipe trading, instant swaps, real-time notifications, and secure wallet management with 10k+ daily transactions.</p>
+            <p class="project-description">Telegram-based multi-network trading bot delivering powerful analytics and intelligent trading tools. Features include snipe trading, instant swaps, real-time notifications, and secure wallet management with 1k+ daily transactions.</p>
             
             <div class="project-tech">
                 <span class="tech-tag">Node.js</span>
