@@ -302,23 +302,76 @@ cover:
 
     <div class="project-card">
         <div class="project-image">
-            <img src="/images/portfolio/projects/dexsense.png" alt="DexSense DEX Analytics Dashboard" />
+            <img src="/images/portfolio/projects/project2/mansuMobile.jpg" alt="Mansu Mobile Wallet" />
         </div>
         <div class="project-content">
-            <h3 class="project-title">DexSense</h3>
-            <p class="project-description">React-based Web Application utilizing the Covalent API to display DEX metrics across multiple chains supported by Covalent for comprehensive DeFi analytics.</p>
+            <h3 class="project-title">Mansu Mobile Wallet</h3>
+            <p class="project-description">Mobile wallet app for Nigeria & Ghana users to buy, sell, swap, and send cryptocurrency using local fiat currencies. Supports Bitcoin, Ethereum, Tether, and TRON.</p>
             
             <div class="project-tech">
-                <span class="tech-tag">ReactJS</span>
-                <span class="tech-tag">ethersJS</span>
-                <span class="tech-tag">Covalent API</span>
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Blockchain APIs</span>
             </div>
             
             <div class="project-links">
-                <a href="https://github.com/osazeejedi/DEX-Dashboard" target="_blank" rel="noopener noreferrer" class="project-link github-link">
-                    <span>GitHub</span>
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
                 </a>
-                <a href="https://dex-dashboard-pi.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                <a href="https://www.mansuwallet.com" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Join Official Waitlist</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project3/mansuwebsite.png" alt="Mansu Official Website" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">Mansu Official Website</h3>
+            <p class="project-description">Official website for Mansu cryptocurrency platform, providing information and access to their financial services and mobile wallet application.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">Node.js</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="https://www.mansu.io" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Live Demo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project4/tcninsightlive.png" alt="TCN Insight Live" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">TCN Insight Live</h3>
+            <p class="project-description">Real-time Q&A and response application for live customer support and engagement, enabling seamless communication and instant feedback.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">WebSocket</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="https://www.tcnqa.com" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
                     <span>Live Demo</span>
                 </a>
             </div>
@@ -417,76 +470,23 @@ cover:
 
     <div class="project-card">
         <div class="project-image">
-            <img src="/images/portfolio/projects/project2/mansuMobile.jpg" alt="Mansu Mobile Wallet" />
+            <img src="/images/portfolio/projects/dexsense.png" alt="DexSense DEX Analytics Dashboard" />
         </div>
         <div class="project-content">
-            <h3 class="project-title">Mansu Mobile Wallet</h3>
-            <p class="project-description">Mobile wallet app for Nigeria & Ghana users to buy, sell, swap, and send cryptocurrency using local fiat currencies. Supports Bitcoin, Ethereum, Tether, and TRON.</p>
+            <h3 class="project-title">DexSense</h3>
+            <p class="project-description">React-based Web Application utilizing the Covalent API to display DEX metrics across multiple chains supported by Covalent for comprehensive DeFi analytics.</p>
             
             <div class="project-tech">
-                <span class="tech-tag">React Native</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">PostgreSql</span>
-                <span class="tech-tag">Blockchain APIs</span>
+                <span class="tech-tag">ReactJS</span>
+                <span class="tech-tag">ethersJS</span>
+                <span class="tech-tag">Covalent API</span>
             </div>
             
             <div class="project-links">
-                <a href="#" class="project-link github-link private">
-                    <span>GitHub (Private)</span>
+                <a href="https://github.com/osazeejedi/DEX-Dashboard" target="_blank" rel="noopener noreferrer" class="project-link github-link">
+                    <span>GitHub</span>
                 </a>
-                <a href="https://www.mansuwallet.com" class="project-link demo-link private">
-                    <span>Join Official Waitlist</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/portfolio/projects/project3/mansuwebsite.png" alt="Mansu Official Website" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">Mansu Official Website</h3>
-            <p class="project-description">Official website for Mansu cryptocurrency platform, providing information and access to their financial services and mobile wallet application.</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">Next.js</span>
-                <span class="tech-tag">Tailwind CSS</span>
-                <span class="tech-tag">Node.js</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="#" class="project-link github-link private">
-                    <span>GitHub (Private)</span>
-                </a>
-                <a href="https://www.mansu.io" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Live Demo</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/portfolio/projects/project4/tcninsightlive.png" alt="TCN Insight Live" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">TCN Insight Live</h3>
-            <p class="project-description">Real-time Q&A and response application for live customer support and engagement, enabling seamless communication and instant feedback.</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">WebSocket</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">Express</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="#" class="project-link github-link private">
-                    <span>GitHub (Private)</span>
-                </a>
-                <a href="https://www.tcnqa.com" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                <a href="https://dex-dashboard-pi.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
                     <span>Live Demo</span>
                 </a>
             </div>

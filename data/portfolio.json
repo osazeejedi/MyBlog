@@ -136,7 +136,7 @@
     {
       "id": 1,
       "title": "StormBot",
-      "description": "Telegram-based multi-network trading bot delivering powerful analytics and intelligent trading tools. Features include snipe trading, instant swaps, real-time notifications, and secure wallet management with 1k+ daily transactions.",
+      "description": "Telegram-based multi-network trading bot delivering powerful analytics and intelligent trading tools. Features include snipe trading, instant swaps, real-time notifications, and secure wallet management with 10k+ daily transactions.",
       "tech": ["Node.js", "React", "PostgreSQL", "AWS", "Telegram API", "Web3", "Real-time Analytics"],
       "github": "#",
       "external": "https://stormbotx.io",
@@ -146,17 +146,39 @@
     },
     {
       "id": 2,
-      "title": "DexSense",
-      "description": "Designed and implemented React-based Web Application which utilizes the Covalent API to display DEX metrics across multiple chains supported by covalent.",
-      "tech": ["ReactJS", "ethersJS", "Covalent API"],
-      "github": "https://github.com/osazeejedi/DEX-Dashboard",
-      "external": "https://dex-dashboard-pi.vercel.app/",
-      "image": "demo1.png",
-      "date": "1",
+      "title": "Mansu Mobile Wallet",
+      "description": "Mobile wallet app for Nigeria & Ghana users to buy, sell, swap, and send cryptocurrency using local fiat currencies. Supports Bitcoin, Ethereum, Tether, and TRON.",
+      "tech": ["React Native", "Node.js", "PostgreSQL", "Blockchain APIs"],
+      "github": "#",
+      "external": "https://www.mansuwallet.com",
+      "image": "mansuMobile.jpg",
+      "date": "2023-08-01",
       "showInProjects": true
     },
     {
       "id": 3,
+      "title": "Mansu Official Website",
+      "description": "Official website for Mansu cryptocurrency platform, providing information and access to their financial services and mobile wallet application.",
+      "tech": ["React", "Next.js", "Tailwind CSS", "Node.js"],
+      "github": "#",
+      "external": "https://www.mansu.io",
+      "image": "mansuwebsite.png",
+      "date": "2023-07-01",
+      "showInProjects": true
+    },
+    {
+      "id": 4,
+      "title": "TCN Insight Live",
+      "description": "Real-time Q&A and response application for live customer support and engagement, enabling seamless communication and instant feedback.",
+      "tech": ["React", "WebSocket", "Node.js", "Express"],
+      "github": "#",
+      "external": "https://www.tcnqa.com",
+      "image": "tcninsightlive.png",
+      "date": "2023-06-01",
+      "showInProjects": true
+    },
+    {
+      "id": 5,
       "title": "Afrione Project",
       "description": "Blockchain-powered e-voucher system enabling cross-border payments and financial inclusion across Africa, the US, and the UK. Commissioned by Blockwave to design and deliver the full architecture and software stack.",
       "tech": ["Solidity", "React", "Node.js", "Web3", "MongoDB", "Blockchain"],
@@ -168,7 +190,7 @@
       "showInProjects": true
     },
     {
-      "id": 4,
+      "id": 6,
       "title": "Prospero Credit Platform",
       "description": "Next-generation AI-powered credit platform that uses AI to match borrowers and lenders in real-time, performs AI-driven credit scoring using financial and behavioral data, and records all loans on a private blockchain.",
       "tech": ["Python", "TensorFlow", "Solidity", "React", "Node.js", "PostgreSQL", "AI/ML"],
@@ -177,6 +199,28 @@
       "demo": "#",
       "image": "logo.webp",
       "date": "2024-01-15",
+      "showInProjects": true
+    },
+    {
+      "id": 7,
+      "title": "Auto360 Supplychain Protocol",
+      "description": "Built a supply chain protocol on the Ethereum blockchain for tracking goods, providence and performing transactions using the Auto360 Token.",
+      "tech": ["ReactJS", "Redux", "Styled Components", "Node.js", "Solidity"],
+      "github": "#",
+      "external": "http://axyz360auto.com",
+      "image": "Axyz360.png",
+      "date": "2022-12-01",
+      "showInProjects": true
+    },
+    {
+      "id": 8,
+      "title": "DexSense",
+      "description": "React-based Web Application utilizing the Covalent API to display DEX metrics across multiple chains supported by Covalent for comprehensive DeFi analytics.",
+      "tech": ["ReactJS", "ethersJS", "Covalent API"],
+      "github": "https://github.com/osazeejedi/DEX-Dashboard",
+      "external": "https://dex-dashboard-pi.vercel.app/",
+      "image": "dexsense.png",
+      "date": "2022-11-01",
       "showInProjects": true
     }
     
