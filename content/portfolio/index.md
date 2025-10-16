@@ -273,6 +273,123 @@ cover:
 <div class="projects-grid">
     <div class="project-card">
         <div class="project-image">
+            <img src="/images/stormbot.png" alt="StormBot Trading Platform" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">StormBot</h3>
+            <p class="project-description">Telegram-based multi-network trading bot delivering powerful analytics and intelligent trading tools. Features include snipe trading, instant swaps, real-time notifications, and secure wallet management with 10k+ daily transactions.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">AWS</span>
+                <span class="tech-tag">Telegram API</span>
+                <span class="tech-tag">Web3</span>
+                <span class="tech-tag">Real-time Analytics</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="https://stormbotx.io" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Live Platform</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/dexsense.png" alt="DexSense DEX Analytics Dashboard" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">DexSense</h3>
+            <p class="project-description">React-based Web Application utilizing the Covalent API to display DEX metrics across multiple chains supported by Covalent for comprehensive DeFi analytics.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">ReactJS</span>
+                <span class="tech-tag">ethersJS</span>
+                <span class="tech-tag">Covalent API</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="https://github.com/osazeejedi/DEX-Dashboard" target="_blank" rel="noopener noreferrer" class="project-link github-link">
+                    <span>GitHub</span>
+                </a>
+                <a href="https://dex-dashboard-pi.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Live Demo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project5/photo_2023-10-21_10-18-57.jpg" alt="Afrione Project" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">Afrione Project</h3>
+            <p class="project-description">Blockchain-powered e-voucher system enabling cross-border payments and financial inclusion across Africa, the US, and the UK. Commissioned by Blockwave to design and deliver the full architecture and software stack.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">Solidity</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Web3</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Blockchain</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="#" class="project-link demo-link private">
+                    <span>Doc (Private(NDA))</span>
+                </a>
+                <a href="https://site.afrione.co/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Project Landing Page</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project6/logo.webp" alt="Prospero Credit Platform" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">Prospero Credit Platform</h3>
+            <p class="project-description">Next-generation AI-powered credit platform that uses AI to match borrowers and lenders in real-time, performs AI-driven credit scoring using financial and behavioral data, and records all loans on a private blockchain.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">Solidity</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">AI/ML</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="#" class="project-link demo-link private">
+                    <span>Doc (Private (NDA))</span>
+                </a>
+                <a href="#" class="project-link demo-link private">
+                    <span>Live Demo (Private)</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
             <img src="/images/portfolio/projects/project1/Axyz360.png" alt="Auto360 Supplychain Protocol" />
         </div>
         <div class="project-content">
@@ -376,93 +493,6 @@ cover:
         </div>
     </div>
 
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/portfolio/projects/dexsense.png" alt="DexSense DEX Analytics Dashboard" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">DexSense</h3>
-            <p class="project-description">React-based Web Application utilizing the Covalent API to display DEX metrics across multiple chains supported by Covalent for comprehensive DeFi analytics.</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">ReactJS</span>
-                <span class="tech-tag">ethersJS</span>
-                <span class="tech-tag">Covalent API</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="https://github.com/osazeejedi/DEX-Dashboard" target="_blank" rel="noopener noreferrer" class="project-link github-link">
-                    <span>GitHub</span>
-                </a>
-                <a href="https://dex-dashboard-pi.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Live Demo</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/portfolio/projects/project5/photo_2023-10-21_10-18-57.jpg" alt="Afrione Project" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">Afrione Project</h3>
-            <p class="project-description">Blockchain-powered e-voucher system enabling cross-border payments and financial inclusion across Africa, the US, and the UK. Commissioned by Blockwave to design and deliver the full architecture and software stack.</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">Solidity</span>
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">Web3</span>
-                <span class="tech-tag">MongoDB</span>
-                <span class="tech-tag">Blockchain</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="#" class="project-link github-link private">
-                    <span>GitHub (Private)</span>
-                </a>
-                <a href="#" class="project-link demo-link private">
-                    <span>Doc (Private(NDA))</span>
-                </a>
-                <a href="https://site.afrione.co/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Project Landing Page</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/portfolio/projects/project6/logo.webp" alt="Prospero Credit Platform" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">Prospero Credit Platform</h3>
-            <p class="project-description">Next-generation AI-powered credit platform that uses AI to match borrowers and lenders in real-time, performs AI-driven credit scoring using financial and behavioral data, and records all loans on a private blockchain.</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">TensorFlow</span>
-                <span class="tech-tag">Solidity</span>
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">PostgreSQL</span>
-                <span class="tech-tag">AI/ML</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="#" class="project-link github-link private">
-                    <span>GitHub (Private)</span>
-                </a>
-                <a href="#" class="project-link demo-link private">
-                    <span>Doc (Private (NDA))</span>
-                </a>
-                <a href="#" class="project-link demo-link private">
-                    <span>Live Demo (Private)</span>
-                </a>
-            </div>
-        </div>
-    </div>
 </div>
 {{< /rawhtml >}}
 
