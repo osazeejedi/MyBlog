@@ -1,10 +1,10 @@
 {
   "personal": {
     "name": "Osazee Jedidiah O",
-    "title": "Blockchain Developer, Program Manager and Data Scientist",
-    "bio": "I am a data-centric, self-motivated, dedicated, goal-oriented individual with decent moral Values and Ethicates along with a high-energy level, honed communication skills, strong organizational skills, and meticulous attention to detail. I am involved in innovating and building Dapps that solve key problems in society and driving massive adoption of blockchain technology. I am currently interested in building to scaling ethereum(L2 solutions) and Deploy Products that integrates A.I and Blockchain technology.",
+    "title": "Software Engineer, Program Manager and Data Scientist",
+    "bio": "i’m a senior/principal-level engineer and technical operator, building and leading the development of scalable platforms.I’m usually involved in system architecture, technical strategy, and helping teams take complex systems from concept through production.",
     "subtitle": "I love exploring new things!",
-    "description": "I'm a Blockchain developer, Program Manager and Data scientist. Primarily interested in Blockchain Development and Leading teams to deploying quality products on time and in budget. I enjoy learning new skills and implementing them in real life!",
+    "description": "a senior software engineer, focusing on building scalable backend systems and financial infrastructure. My work typically spans system architecture, distributed services, and taking platforms from early concept through production deployment. I’ve also led small engineering teams and coordinated technical execution across product and program stakeholders. I enjoy learning new skills and implementing them in real life!",
     "email": "oghagbonosazee20@gmail.com",
     "avatar": "osazeeJedi.jpeg",
     "skills": [
@@ -150,14 +150,14 @@
       "description": "Mobile wallet app for Nigeria & Ghana users to buy, sell, swap, and send cryptocurrency using local fiat currencies. Supports Bitcoin, Ethereum, Tether, and TRON.",
       "tech": ["React Native", "Node.js", "PostgreSQL", "Blockchain APIs"],
       "github": "#",
-      "external": "https://www.mansuwallet.com",
+      "external": "https://onelink.to/mzddka",
       "image": "mansuMobile.jpg",
       "date": "2023-08-01",
       "showInProjects": true
     },
     {
       "id": 3,
-      "title": "Mansu Official Website",
+      "title": "Mansu Official",
       "description": "Official website for Mansu cryptocurrency platform, providing information and access to their financial services and mobile wallet application.",
       "tech": ["React", "Next.js", "Tailwind CSS", "Node.js"],
       "github": "#",
