@@ -30,7 +30,7 @@ cover:
     <div class="portfolio-intro">
         <h1 class="portfolio-title">Osazee Jedidiah O</h1>
         <h2 class="portfolio-subtitle">Software Engineer, Program Manager and Data Scientist</h2>
-        <p class="portfolio-description">I'm a Software Engineer, Program Manager and Data scientist. Primarily interested in Blockchain Development, Health Tech, Supply-chain, fintech, Education and Leading teams to deploying quality products on time and in budget. I enjoy learning new skills and implementing them in real life!</p>
+        <p class="portfolio-description">i’m a senior/principal-level engineer and technical operator, building and leading the development of scalable platforms.I’m usually involved in system architecture, technical strategy, and helping teams take complex systems from concept through production.</p>
         
         <div class="skills-section">
             <h3>Technologies I Work With</h3>
@@ -277,7 +277,7 @@ cover:
         </div>
         <div class="project-content">
             <h3 class="project-title">StormBot</h3>
-            <p class="project-description">Telegram-based multi-network trading bot delivering powerful analytics and intelligent trading tools. Features include snipe trading, instant swaps, real-time notifications, and secure wallet management with 1k+ daily transactions.</p>
+            <p class="project-description">Telegram-based multi-network trading bot. Features include transfer, instant swaps, real-time notifications, and secure wallet management with 1k+ daily transactions.</p>
             
             <div class="project-tech">
                 <span class="tech-tag">Node.js</span>
@@ -319,8 +319,8 @@ cover:
                 <a href="#" class="project-link github-link private">
                     <span>GitHub (Private)</span>
                 </a>
-                <a href="https://www.mansuwallet.com" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Join Official Waitlist</span>
+                <a href="https://onelink.to/mzddka" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Download </span>
                 </a>
             </div>
         </div>
@@ -331,7 +331,7 @@ cover:
             <img src="/images/portfolio/projects/project3/mansuwebsite.png" alt="Mansu Official Website" />
         </div>
         <div class="project-content">
-            <h3 class="project-title">Mansu Official Website</h3>
+            <h3 class="project-title">Mansu Official</h3>
             <p class="project-description">Official website for Mansu cryptocurrency platform, providing information and access to their financial services and mobile wallet application.</p>
             
             <div class="project-tech">
@@ -402,7 +402,7 @@ cover:
                 <a href="#" class="project-link demo-link private">
                     <span>Doc (Private(NDA))</span>
                 </a>
-                <a href="https://site.afrione.co/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                <a href="https://afrione-homepage.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
                     <span>Project Landing Page</span>
                 </a>
             </div>
