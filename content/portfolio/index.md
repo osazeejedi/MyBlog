@@ -302,6 +302,35 @@ cover:
 
     <div class="project-card">
         <div class="project-image">
+            <img src="/images/portfolio/projects/project6/payroute.png" alt="PayRoute Cross-Border Payment System" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">PayRoute</h3>
+            <p class="project-description">Cross-border payment processing system (simulation) enabling Nigerian businesses to send payments to international suppliers. Demonstrates correct payment logic, double-entry bookkeeping, concurrency safety, and webhook-driven async processing.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Supabase</span>
+                <span class="tech-tag">Webhooks</span>
+                <span class="tech-tag">Double-Entry Bookkeeping</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="https://github.com/osazeejedi/pay-route" target="_blank" rel="noopener noreferrer" class="project-link github-link">
+                    <span>GitHub</span>
+                </a>
+                <a href="https://pay-route-iota.vercel.app" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Live Demo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
             <img src="/images/portfolio/projects/project2/mansuMobile.jpg" alt="Mansu Mobile Wallet" />
         </div>
         <div class="project-content">
