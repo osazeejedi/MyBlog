@@ -1,6 +1,6 @@
 ---
 title: "Portfolio"
-description: "Software Engineer, Program Manager and Data Scientist - Showcasing my professional experience and featured projects"
+description: "Software Engineer - Showcasing my professional experience and featured projects"
 date: 2024-01-01
 draft: false
 showToc: false
@@ -29,7 +29,7 @@ cover:
 <div class="portfolio-hero">
     <div class="portfolio-intro">
         <h1 class="portfolio-title">Osazee Jedidiah O</h1>
-        <h2 class="portfolio-subtitle">Software Engineer, Program Manager and Data Scientist</h2>
+        <h2 class="portfolio-subtitle">Software Engineer</h2>
         <p class="portfolio-description">i’m a senior software engineer and technical operator, building and leading the development of scalable platforms.I’m usually involved in system architecture, technical strategy, and helping teams take complex systems from concept through production.</p>
         
         <div class="skills-section">
