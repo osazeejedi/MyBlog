@@ -30,7 +30,7 @@ cover:
     <div class="portfolio-intro">
         <h1 class="portfolio-title">Osazee Jedidiah O</h1>
         <h2 class="portfolio-subtitle">Software Engineer, Program Manager and Data Scientist</h2>
-        <p class="portfolio-description">i’m a senior/principal-level engineer and technical operator, building and leading the development of scalable platforms.I’m usually involved in system architecture, technical strategy, and helping teams take complex systems from concept through production.</p>
+        <p class="portfolio-description">i’m a senior software engineer and technical operator, building and leading the development of scalable platforms.I’m usually involved in system architecture, technical strategy, and helping teams take complex systems from concept through production.</p>
         
         <div class="skills-section">
             <h3>Technologies I Work With</h3>
@@ -86,6 +86,206 @@ cover:
             </a>
         </div>
     </div>
+</div>
+{{< /rawhtml >}}
+
+## Featured Projects
+
+{{< rawhtml >}}
+<div class="projects-grid">
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/stormbot.png" alt="StormBot Trading Platform" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">StormBot</h3>
+            <p class="project-description">Telegram-based multi-network trading bot. Features include transfer, instant swaps, real-time notifications, and secure wallet management with 1k+ daily transactions.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">AWS</span>
+                <span class="tech-tag">Telegram API</span>
+                <span class="tech-tag">Web3</span>
+                <span class="tech-tag">Real-time Analytics</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="https://stormbotx.io" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Live Platform</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project6/payroute.png" alt="PayRoute Cross-Border Payment System" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">PayRoute</h3>
+            <p class="project-description">Cross-border payment processing system (simulation) enabling Nigerian businesses to send payments to international suppliers. Demonstrates correct payment logic, double-entry bookkeeping, concurrency safety, and webhook-driven async processing.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Supabase</span>
+                <span class="tech-tag">Webhooks</span>
+                <span class="tech-tag">Double-Entry Bookkeeping</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="https://github.com/osazeejedi/pay-route" target="_blank" rel="noopener noreferrer" class="project-link github-link">
+                    <span>GitHub</span>
+                </a>
+                <a href="https://pay-route-iota.vercel.app" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Live Demo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project2/mansuMobile.jpg" alt="Mansu Mobile Wallet" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">Mansu Mobile Wallet</h3>
+            <p class="project-description">Mobile wallet app for Nigeria & Ghana users to buy, sell, swap, and send cryptocurrency using local fiat currencies. Supports Bitcoin, Ethereum, Tether, and TRON.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Blockchain APIs</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="https://mansuwallet.com" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Download </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project3/mansuwebsite.png" alt="Mansu Official Website" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">Mansu Official</h3>
+            <p class="project-description">Official website for Mansu cryptocurrency platform, providing information and access to their financial services and mobile wallet application.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">Node.js</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="https://www.mansu.io" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Live Demo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project4/tcninsightlive.png" alt="TCN Insight Live" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">TCN Insight Live</h3>
+            <p class="project-description">Real-time Q&A and response application for live customer support and engagement, enabling seamless communication and instant feedback.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">WebSocket</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="https://github.com/osazeejedi/tcnIive" target="_blank" rel="noopener noreferrer" class="project-link github-link">
+                    <span>GitHub</span>
+                </a>
+                <a href="https://tcn-iive.vercel.app" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Live Demo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project5/photo_2023-10-21_10-18-57.jpg" alt="Afrione Project" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">Afrione Project</h3>
+            <p class="project-description">Blockchain-powered e-voucher system enabling cross-border payments and financial inclusion across Africa, the US, and the UK. Commissioned by Blockwave to design and deliver the full architecture and software stack.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">Solidity</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Web3</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Blockchain</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="#" class="project-link demo-link private">
+                    <span>Doc (Private(NDA))</span>
+                </a>
+                <a href="https://afrione-homepage.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Project Demo Landing Page</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="/images/portfolio/projects/project6/logo.webp" alt="Prospero Credit Platform" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">Prospero Credit Platform</h3>
+            <p class="project-description">Production-grade credit risk assessment and loan recommendation engine for Nigerian SMEs. Features AI-driven scoring, sector-adjusted risk profiling, and tamper-evident audit trails.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">AI/ML</span>
+                <span class="tech-tag">Risk Modeling</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="/portfolio/prospero-credit/" class="project-link demo-link">
+                    <span>View Technical Details</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
 </div>
 {{< /rawhtml >}}
 
@@ -218,14 +418,14 @@ cover:
             <div class="experience-meta">
                 <span class="company">Datatom.E.G.A (Edo State Gov't Project)</span>
                 <span class="location">Edo State, Nigeria</span>
-                <span class="date-range">2020 - 2021</span>
+                <span class="date-range">Jan 2021</span>
             </div>
         </div>
-        <div class="experience-content">
+        <!-- <div class="experience-content">
             <ul class="responsibilities">
                 <li>Improved geospatial data accuracy by 15% through optimized data pipelines</li>
             </ul>
-        </div>
+        </div> -->
     </div>
     
     <div class="experience-item">
@@ -264,264 +464,6 @@ cover:
             <li>Alchemy University (2022)</li>
         </ul>
     </div>
-</div>
-{{< /rawhtml >}}
-
-## Featured Projects
-
-{{< rawhtml >}}
-<div class="projects-grid">
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/stormbot.png" alt="StormBot Trading Platform" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">StormBot</h3>
-            <p class="project-description">Telegram-based multi-network trading bot. Features include transfer, instant swaps, real-time notifications, and secure wallet management with 1k+ daily transactions.</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">PostgreSQL</span>
-                <span class="tech-tag">AWS</span>
-                <span class="tech-tag">Telegram API</span>
-                <span class="tech-tag">Web3</span>
-                <span class="tech-tag">Real-time Analytics</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="#" class="project-link github-link private">
-                    <span>GitHub (Private)</span>
-                </a>
-                <a href="https://stormbotx.io" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Live Platform</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/portfolio/projects/project6/payroute.png" alt="PayRoute Cross-Border Payment System" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">PayRoute</h3>
-            <p class="project-description">Cross-border payment processing system (simulation) enabling Nigerian businesses to send payments to international suppliers. Demonstrates correct payment logic, double-entry bookkeeping, concurrency safety, and webhook-driven async processing.</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">Express</span>
-                <span class="tech-tag">PostgreSQL</span>
-                <span class="tech-tag">Supabase</span>
-                <span class="tech-tag">Webhooks</span>
-                <span class="tech-tag">Double-Entry Bookkeeping</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="https://github.com/osazeejedi/pay-route" target="_blank" rel="noopener noreferrer" class="project-link github-link">
-                    <span>GitHub</span>
-                </a>
-                <a href="https://pay-route-iota.vercel.app" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Live Demo</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/portfolio/projects/project2/mansuMobile.jpg" alt="Mansu Mobile Wallet" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">Mansu Mobile Wallet</h3>
-            <p class="project-description">Mobile wallet app for Nigeria & Ghana users to buy, sell, swap, and send cryptocurrency using local fiat currencies. Supports Bitcoin, Ethereum, Tether, and TRON.</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">React Native</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">PostgreSQL</span>
-                <span class="tech-tag">Blockchain APIs</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="#" class="project-link github-link private">
-                    <span>GitHub (Private)</span>
-                </a>
-                <a href="https://onelink.to/mzddka" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Download </span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/portfolio/projects/project3/mansuwebsite.png" alt="Mansu Official Website" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">Mansu Official</h3>
-            <p class="project-description">Official website for Mansu cryptocurrency platform, providing information and access to their financial services and mobile wallet application.</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">Next.js</span>
-                <span class="tech-tag">Tailwind CSS</span>
-                <span class="tech-tag">Node.js</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="#" class="project-link github-link private">
-                    <span>GitHub (Private)</span>
-                </a>
-                <a href="https://www.mansu.io" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Live Demo</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/portfolio/projects/project4/tcninsightlive.png" alt="TCN Insight Live" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">TCN Insight Live</h3>
-            <p class="project-description">Real-time Q&A and response application for live customer support and engagement, enabling seamless communication and instant feedback.</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">WebSocket</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">Express</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="#" class="project-link github-link private">
-                    <span>GitHub (Private)</span>
-                </a>
-                <a href="https://www.tcnqa.com" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Live Demo</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/portfolio/projects/project5/photo_2023-10-21_10-18-57.jpg" alt="Afrione Project" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">Afrione Project</h3>
-            <p class="project-description">Blockchain-powered e-voucher system enabling cross-border payments and financial inclusion across Africa, the US, and the UK. Commissioned by Blockwave to design and deliver the full architecture and software stack.</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">Solidity</span>
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">Web3</span>
-                <span class="tech-tag">MongoDB</span>
-                <span class="tech-tag">Blockchain</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="#" class="project-link github-link private">
-                    <span>GitHub (Private)</span>
-                </a>
-                <a href="#" class="project-link demo-link private">
-                    <span>Doc (Private(NDA))</span>
-                </a>
-                <a href="https://afrione-homepage.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Project Landing Page</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/portfolio/projects/project6/logo.webp" alt="Prospero Credit Platform" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">Prospero Credit Platform</h3>
-            <p class="project-description">Next-generation AI-powered credit platform that uses AI to match borrowers and lenders in real-time, performs AI-driven credit scoring using financial and behavioral data, and records all loans on a private blockchain.</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">TensorFlow</span>
-                <span class="tech-tag">Solidity</span>
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">PostgreSQL</span>
-                <span class="tech-tag">AI/ML</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="#" class="project-link github-link private">
-                    <span>GitHub (Private)</span>
-                </a>
-                <a href="#" class="project-link demo-link private">
-                    <span>Doc (Private (NDA))</span>
-                </a>
-                <a href="#" class="project-link demo-link private">
-                    <span>Live Demo (Private)</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/portfolio/projects/project1/Axyz360.png" alt="Auto360 Supplychain Protocol" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">Auto360 Supplychain Protocol</h3>
-            <p class="project-description">Built a supply chain protocol on the Ethereum blockchain for tracking goods, providence and performing transactions using the Auto360 Token.</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">ReactJS</span>
-                <span class="tech-tag">Redux</span>
-                <span class="tech-tag">Styled Components</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">Solidity</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="#" class="project-link github-link private">
-                    <span>GitHub (Private)</span>
-                </a>
-                <a href="http://axyz360auto.com" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Live Demo</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/portfolio/projects/dexsense.png" alt="DexSense DEX Analytics Dashboard" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">DexSense</h3>
-            <p class="project-description">React-based Web Application utilizing the Covalent API to display DEX metrics across multiple chains supported by Covalent for comprehensive DeFi analytics.</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">ReactJS</span>
-                <span class="tech-tag">ethersJS</span>
-                <span class="tech-tag">Covalent API</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="https://github.com/osazeejedi/DEX-Dashboard" target="_blank" rel="noopener noreferrer" class="project-link github-link">
-                    <span>GitHub</span>
-                </a>
-                <a href="https://dex-dashboard-pi.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Live Demo</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
 </div>
 {{< /rawhtml >}}
 
