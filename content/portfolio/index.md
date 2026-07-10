@@ -177,7 +177,7 @@ cover:
         </div>
     </div>
 
-    <div class="project-card">
+    <!-- <div class="project-card">
         <div class="project-image">
             <img src="/images/portfolio/projects/project3/mansuwebsite.png" alt="Mansu Official Website" />
         </div>
@@ -201,7 +201,7 @@ cover:
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="project-card">
         <div class="project-image">
