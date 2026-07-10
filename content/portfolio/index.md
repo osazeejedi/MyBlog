@@ -153,25 +153,25 @@ cover:
 
     <div class="project-card">
         <div class="project-image">
-            <img src="/images/portfolio/projects/project2/mansuMobile.jpg" alt="Mansu Mobile Wallet" />
+            <img src="/images/portfolio/projects/project6/logo.webp" alt="Prospero Credit Platform" />
         </div>
         <div class="project-content">
-            <h3 class="project-title">Mansu Mobile Wallet</h3>
-            <p class="project-description">Mobile wallet app for Nigeria & Ghana users to buy, sell, swap, and send cryptocurrency using local fiat currencies. Supports Bitcoin, Ethereum, Tether, and TRON.</p>
+            <h3 class="project-title">Prospero Credit Platform</h3>
+            <p class="project-description">Production-grade credit risk assessment and loan recommendation engine for Nigerian SMEs. Features AI-driven scoring, sector-adjusted risk profiling, and tamper-evident audit trails.</p>
             
             <div class="project-tech">
-                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">TypeScript</span>
                 <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express</span>
                 <span class="tech-tag">PostgreSQL</span>
-                <span class="tech-tag">Blockchain APIs</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">AI/ML</span>
+                <span class="tech-tag">Risk Modeling</span>
             </div>
             
             <div class="project-links">
-                <a href="#" class="project-link github-link private">
-                    <span>GitHub (Private)</span>
-                </a>
-                <a href="https://mansuwallet.com" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
-                    <span>Download </span>
+                <a href="https://github.com/osazeejedi/Credit-Risk-Engine" target="_blank" rel="noopener noreferrer" class="project-link github-link">
+                    <span>View on GitHub</span>
                 </a>
             </div>
         </div>
@@ -255,32 +255,6 @@ cover:
                 </a>
                 <a href="https://afrione-homepage.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
                     <span>Project Demo Landing Page</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <div class="project-image">
-            <img src="/images/portfolio/projects/project6/logo.webp" alt="Prospero Credit Platform" />
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">Prospero Credit Platform</h3>
-            <p class="project-description">Production-grade credit risk assessment and loan recommendation engine for Nigerian SMEs. Features AI-driven scoring, sector-adjusted risk profiling, and tamper-evident audit trails. NB: cannot show full project or code snippets due to NDA agreement</p>
-            
-            <div class="project-tech">
-                <span class="tech-tag">TypeScript</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">Express</span>
-                <span class="tech-tag">PostgreSQL</span>
-                <span class="tech-tag">Docker</span>
-                <span class="tech-tag">AI/ML</span>
-                <span class="tech-tag">Risk Modeling</span>
-            </div>
-            
-            <div class="project-links">
-                <a href="/portfolio/prospero-credit/" class="project-link demo-link">
-                    <span>View Technical Details</span>
                 </a>
             </div>
         </div>
