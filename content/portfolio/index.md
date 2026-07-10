@@ -124,7 +124,7 @@ cover:
 
     <div class="project-card">
         <div class="project-image">
-            <img src="/images/portfolio/projects/project6/payroute.png" alt="PayRoute Cross-Border Payment System" />
+            <img src="/images/portfolio/projects/project6/payroute.png" alt="PayRoute Cross-Border Payment System(Clean room version)" />
         </div>
         <div class="project-content">
             <h3 class="project-title">PayRoute</h3>
@@ -266,7 +266,7 @@ cover:
         </div>
         <div class="project-content">
             <h3 class="project-title">Prospero Credit Platform</h3>
-            <p class="project-description">Production-grade credit risk assessment and loan recommendation engine for Nigerian SMEs. Features AI-driven scoring, sector-adjusted risk profiling, and tamper-evident audit trails.</p>
+            <p class="project-description">Production-grade credit risk assessment and loan recommendation engine for Nigerian SMEs. Features AI-driven scoring, sector-adjusted risk profiling, and tamper-evident audit trails. NB: cannot show full project or code snippets due to NDA agreement</p>
             
             <div class="project-tech">
                 <span class="tech-tag">TypeScript</span>
