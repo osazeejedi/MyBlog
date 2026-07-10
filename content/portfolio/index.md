@@ -124,6 +124,32 @@ cover:
 
     <div class="project-card">
         <div class="project-image">
+            <img src="/images/portfolio/projects/project2/mansuMobile.jpg" alt="Mansu Mobile Wallet" />
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">Mansu Mobile Wallet</h3>
+            <p class="project-description">Mobile wallet app for Nigeria & Ghana users to buy, sell, swap, and send cryptocurrency using local fiat currencies. Supports Bitcoin, Ethereum, Tether, and TRON.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Blockchain APIs</span>
+            </div>
+            
+            <div class="project-links">
+                <a href="#" class="project-link github-link private">
+                    <span>GitHub (Private)</span>
+                </a>
+                <a href="https://mansuwallet.com" target="_blank" rel="noopener noreferrer" class="project-link demo-link">
+                    <span>Download </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
             <img src="/images/portfolio/projects/project6/payroute.png" alt="PayRoute Cross-Border Payment System(Clean room version)" />
         </div>
         <div class="project-content">
