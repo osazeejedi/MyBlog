@@ -261,7 +261,7 @@ cover:
         </div>
         <div class="project-content">
             <h3 class="project-title">Afrione Project</h3>
-            <p class="project-description">Blockchain-powered e-voucher system enabling cross-border payments and financial inclusion across Africa, the US, and the UK. Commissioned by Blockwave to design and deliver the full architecture and software stack.</p>
+            <p class="project-description">Blockchain-powered e-voucher system enabling cross-border payments and financial inclusion across Africa, the US, and the UK. Commissioned by Whitebox to design and deliver the full architecture and software stack.</p>
             
             <div class="project-tech">
                 <span class="tech-tag">Solidity</span>
@@ -297,9 +297,30 @@ cover:
         <div class="experience-header">
             <h3 class="experience-title">Software Engineer</h3>
             <div class="experience-meta">
+                <span class="company"><a href="https://mansuwallet.com" target="_blank" rel="noopener noreferrer">Mansu</a></span>
+                <span class="location">Remote</span>
+                <span class="date-range">Feb 2025 – Present</span>
+            </div>
+        </div>
+        <div class="experience-content">
+            <ul class="responsibilities">
+                <li>Built and shipped the Mansu web application (buy/sell/swap/send crypto with local fiat) using React/Next.js, Node.js, and PostgreSQL</li>
+                <li>Designed and built the Mansu mobile wallet app (React Native) supporting Bitcoin, Ethereum, Tether, and TRON for users in Nigeria and Ghana</li>
+                <li>Integrated fiat on/off-ramp providers and blockchain APIs enabling seamless local-currency crypto transactions</li>
+                <li>Implemented secure wallet infrastructure (key management, transaction signing) and KYC/AML compliance flows</li>
+                <li>Built backend microservices and event-driven architecture for real-time transaction processing and notifications</li>
+                <li>Designed data models and analytics dashboards to support product and operations decisions</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="experience-item">
+        <div class="experience-header">
+            <h3 class="experience-title">Software Engineer</h3>
+            <div class="experience-meta">
                 <span class="company"><a href="https://stormbotx.io" target="_blank" rel="noopener noreferrer">StormBot</a></span>
                 <span class="location">Remote</span>
-                <span class="date-range">Feb 2024 – Present</span>
+                <span class="date-range">Feb 2024 – Feb 2025</span>
             </div>
         </div>
         <div class="experience-content">
@@ -335,7 +356,7 @@ cover:
         <div class="experience-header">
             <h3 class="experience-title">Lead Blockchain & Software Architect</h3>
             <div class="experience-meta">
-                <span class="company">Blockwave Consult</span>
+                <span class="company"><a href="https://www.whiteboxconsults.com/" target="_blank" rel="noopener noreferrer">Whitebox Consults</a></span>
                 <span class="location">Lagos, Nigeria</span>
                 <span class="date-range">Aug 2022 – Feb 2024</span>
             </div>

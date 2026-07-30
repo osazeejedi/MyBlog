@@ -19,11 +19,28 @@
   },
   "experience": [
     {
+      "id": 0,
+      "title": "Software Engineer",
+      "company": "Mansu",
+      "location": "Remote",
+      "range": "Feb 2025 – Present",
+      "url": "https://mansuwallet.com",
+      "date": "2025-02-01",
+      "responsibilities": [
+        "Built and shipped the Mansu web application (buy/sell/swap/send crypto with local fiat) using React/Next.js, Node.js, and PostgreSQL",
+        "Designed and built the Mansu mobile wallet app (React Native) supporting Bitcoin, Ethereum, Tether, and TRON for users in Nigeria and Ghana",
+        "Integrated fiat on/off-ramp providers and blockchain APIs enabling seamless local-currency crypto transactions",
+        "Implemented secure wallet infrastructure (key management, transaction signing) and KYC/AML compliance flows",
+        "Built backend microservices and event-driven architecture for real-time transaction processing and notifications",
+        "Designed data models and analytics dashboards to support product and operations decisions"
+      ]
+    },
+    {
       "id": 1,
       "title": "Software Engineer",
       "company": "StormBot",
       "location": "Remote",
-      "range": "Feb 2024 – Present",
+      "range": "Feb 2024 – Feb 2025",
       "url": "https://stormbotx.io",
       "date": "2024-02-01",
       "responsibilities": [
@@ -51,10 +68,10 @@
     {
       "id": 3,
       "title": "Lead Blockchain & Software Architect",
-      "company": "Blockwave Consult",
+      "company": "Whitebox Consults",
       "location": "Lagos, Nigeria",
-      "range": "Aug 2022 – Present",
-      "url": "#",
+      "range": "Aug 2022 – Feb 2024",
+      "url": "https://www.whiteboxconsults.com/",
       "date": "2022-08-01",
       "responsibilities": [
         "Led design and development of enterprise-grade blockchain and full stack systems for fintech, logistics, and governance clients",
@@ -172,7 +189,7 @@
       "description": "Real-time Q&A and response application for live customer support and engagement, enabling seamless communication and instant feedback.",
       "tech": ["React", "WebSocket", "Node.js", "Express"],
       "github": "#",
-      "external": "https://www.tcnqa.com",
+      "external": "https://tcn-iive.vercel.app",
       "image": "tcninsightlive.png",
       "date": "2023-06-01",
       "showInProjects": true
@@ -180,7 +197,7 @@
     {
       "id": 5,
       "title": "Afrione Project",
-      "description": "Blockchain-powered e-voucher system enabling cross-border payments and financial inclusion across Africa, the US, and the UK. Commissioned by Blockwave to design and deliver the full architecture and software stack.",
+      "description": "Blockchain-powered e-voucher system enabling cross-border payments and financial inclusion across Africa, the US, and the UK. Commissioned by Whitebox to design and deliver the full architecture and software stack.",
       "tech": ["Solidity", "React", "Node.js", "Web3", "MongoDB", "Blockchain"],
       "github": "#",
       "external": "#",
